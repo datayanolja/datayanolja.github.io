@@ -17,6 +17,10 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://datayanolja.github.io/speaker.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://datayanolja.github.io/data-book-recommendation-2017.html
     </loc>
     <changefreq>daily</changefreq>
