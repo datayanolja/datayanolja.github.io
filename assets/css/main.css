@@ -1587,6 +1587,15 @@
 			color: #e44c65 !important;
 			border-bottom-color: transparent;
 		}
+	#program-2017 a {
+		border-bottom: dotted 1px;
+		color: #ffffff;
+	}
+
+	#program-2017 a:hover {
+		color: #ffffff !important;
+		border-bottom-color: transparent;
+	}
 
 	strong, b {
 		color: #ffffff;
