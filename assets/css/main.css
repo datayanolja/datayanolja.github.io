@@ -1583,10 +1583,28 @@
 		text-decoration: none;
 	}
 
-		a:hover {
-			color: #e44c65 !important;
-			border-bottom-color: transparent;
-		}
+	a:hover {
+		color: #e44c65 !important;
+		border-bottom-color: transparent;
+	}
+
+	#program-2017 a {
+		border-bottom: dotted 1px;
+		color: #ffffff;
+	}
+
+	#program-2017 a:hover {
+		color: #ffffff !important;
+		border-bottom-color: transparent;
+	}
+
+	a.top {
+		position: fixed;
+		right: 10px;
+		bottom: 50px;
+		display: none;
+		cursor:pointer;
+	}
 
 	strong, b {
 		color: #ffffff;
