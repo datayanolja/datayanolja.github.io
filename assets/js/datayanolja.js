@@ -12,3 +12,10 @@ $( document ).ready( function() {
 		return false;
 	} );
 } );
+
+// program list accordion
+$( function() {
+	$( "#accordion" ).accordion({
+		heightStyle: "content"
+	});
+} );
