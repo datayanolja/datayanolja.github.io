@@ -1588,6 +1588,11 @@
 		border-bottom-color: transparent;
 	}
 
+	#program-2017 a.slide {
+		border-bottom: dotted 1px;
+		color: #e44c65;
+	}
+
 	#program-2017 a {
 		border-bottom: dotted 1px;
 		color: #ffffff;
