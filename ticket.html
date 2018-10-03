@@ -24,6 +24,28 @@
 			.time-content{ width:330pt;
 						   vertical-align: middle;}
 			.time-etc{ width:140pt; font-weight: bold;}
+			ul.ulstyle {
+				list-style: none;
+				margin: 0px;
+				padding: 0px;
+				max-width: 900px;
+				width: 100%;
+			}
+			ul.ul-price {
+				list-style: none;
+			}
+			ul.ulstyle li > ul.ul-price li:before {
+				content: ">";
+				display: inline-block;
+				vertical-align: middle;
+				padding: 0px 5px 6px 0px;
+			}
+			ul.ulstyle li:before{
+				content: "*";
+				display: inline-block;
+				vertical-align: middle;
+				padding: 0px 5px 6px 0px;
+			}
 			</style>
 	</head>
 	<body class="is-preload">
@@ -58,11 +80,35 @@
 				<!-- Main -->
 					<article id="main">
 						<header>
-							<h2>티켓팅</h2>
-							<p>읭? 드디어 시작인가...</p>
+							<h2>2018데놀 참가신청</h2>
+							<p>2018년 10월 19일 다함께 즐겨보아요~^^</p>
+							<ul class="actions special">
+								<li class = "speaker_apply"><a href="https://goo.gl/forms/3bFqzBuRIN8Tonjv1" class="button">2018 데놀 참가신청</a></li>
+							</ul>
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
+								<section id = "notice">
+									<h3>공지사항</h3>
+									<p>우선, 데이터를 다루는 모든 사람들의 축제인 데이터야놀자행사에 참가 신청을 해주셔서 감사합니다.</p>
+
+									<ul class="ulstyle">
+										<li>티켓은 총 300장으로, 수입 있는 직장인 250장 / 수입 없는 학생 및 취준생 대상 50장입니다.</li>
+										<li>데이터야놀자 티켓팅은 선착순이 아닌 '추첨'입니다!</li>
+										<li>티켓비용 지불은 무통장 입금만 가능합니다(내년에는 카드결제 기능을 꼭 추가하겠습니다 ㅠ)</li>
+										<li>기한내 꼭 입금해주셔야하며, 입금이 안된 경우는 추첨이 자동 취소됩니다.</li>
+										<li>티켓 가격
+											<ul class="ul-price">
+												<li>수입있음 : 50,000원</li>
+												<li>수입없음 : 10,000원</li>
+											</ul>
+										</li>
+
+									</ul>
+									<p>
+
+									</p>
+								</section>
 
 								<section id = "schedule">
 									<h3>티켓팅 일정 안내</h3>
@@ -109,25 +155,6 @@
 										</table>
 									</div>
 								</section>
-									<!-- timetable end-->
-
-								<section id = "notice">
-									<h3>공지사항</h3>
-										<p>
-											* 티켓은 총 300장으로, 수입 있는 직장인 250장 / 수입 없는 학생 및 취준생 대상 50장입니다.
-										</p>
-										<p>
-											* 데이터야놀자 티켓팅은 선착순이 아닌 '추첨'입니다!
-										</p>
-										<p>
-											* 티켓비용 지불은 무통장 입금만 가능합니다(내년에는 카드결제 기능을 꼭 추가하겠습니다 ㅠ)
-										</p>
-										<p>
-											* 기한내 꼭 입금해주셔야하며, 입금이 안된 경우는 추첨이 자동 취소됩니다.
-										</p>
-
-								</section>
-
 							</div>
 						</section>
 					</article>
