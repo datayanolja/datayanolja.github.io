@@ -30,6 +30,8 @@
 		.time-track{ width:400pt;}
 		.time-hall{ width:50pt;}
 
+		.profile-image img { max-width:200px; max-height:200px; width:100%; height:100%;}
+
 		</style>
 
 	</head>
@@ -38,13 +40,13 @@
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
-				<!-- Header
+				<!-- Header -->
 					<header id="header">
 						<h1><a href="index.html">데이터야놀자</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
-									메뉴바 어떻게하면 만들 수 있을까요...?
+									<!-- 메뉴바 어떻게하면 만들 수 있을까요...? -->
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 											<ul>
@@ -62,14 +64,14 @@
 							</ul>
 						</nav>
 					</header>
- 				-->
+
 
 
 				<!-- Main -->
 					<article id="main">
 						<header>
-							<h2>[데이터 사이언스 살롱 in 뉴욕] 참관기</h2>
-							<p>(주)빅레이더 장현석</p>
+							<h2>프로그램 상세</h2>
+							<p>연사자 프로필 / 발표 상세</p>
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
@@ -77,50 +79,56 @@
 								<section>
 
 									<!-- title -->
-									<h2> 미국에서 체험한 현업 (미디어 관련) 데이터 사이언스 <h2/>
+									<h2>웹크롤링 좀 더 잘하기<h2/>
 									<br/>
 									<!-- profile image -->
 									<!-- img는 파일명과 동일하게 연사 이름으로 지정해주세요. -->
-									<span class="image left"><img src="https://raw.githubusercontent.com/datayanolja/datayanolja.github.io/master/speakers/profile_image/장현석.jpg" alt="" height = "200" width = "200"/></span>
+									<!-- 제 사진 파일이 이상해서 그런가... 모바일 화면에서 레이아웃이 깨져서 상단에서 CSS 따로 지정해줬습니다;; -->
+									<span class="image left profile-image"><img src="profile_image/wangwonlee.jpg" alt=""/></span>
 
 
 									<!-- profile content -->
-									<h4> 발표자 : 장현석
+									<h4> 발표자 : 이왕원 (BbChip13)
 										(
-										<a href="https://www.facebook.com/hans.jang.7" class="fa fa-facebook"></a>
-										<a href="#" class="fa fa-google"></a>
-										<a href="#" class="fa fa-twitter"></a>
-										<a href="#" class="fa fa-linkedin"></a>
-										<a href="#" class="fa fa-youtube"></a>
-										<a href="#" class="fa fa-instagram"></a>
-										<a href="#" class="fa fa-skype"></a>
+										<a href="https://github.com/BbChip0103" class="fa fa-github"></a>
+										<a href="https://www.facebook.com/profile.php?id=100003739347748" class="fa fa-facebook"></a>
+										<a href="mailto:bbchip13@gmail.com" class="fa fa-google"></a>
+										<!-- <a href="#" class="fa fa-twitter"></a> -->
+										<!-- <a href="#" class="fa fa-linkedin"></a> -->
+										<!-- <a href="#" class="fa fa-youtube"></a> -->
+										<!-- <a href="#" class="fa fa-instagram"></a> -->
+										<!-- <a href="#" class="fa fa-skype"></a> -->
 										)
 									</h4>
-									<h4> 시간 : TBD </h4>
-									<h4> 난이도 : 쉬움 </h4>
-									<h4> 키워드 : 미국, 뉴욕, 미디어, 엔터테인먼트, 데이터 사이언스, 참관기 </h4>
+									<h4> 시간 : ??:00 ~ ??:40 (?) </h4>
+									<h4> 난이도 : 중간 </h4>
+									<h4> 키워드 : 웹 크롤링 </h4>
 
 
 									<hr />
 									<!-- session intro -->
 									<h3> 내용 </h3>
 									<p>
-										[Data Science Salon]은 미국 현지의 데이터 사이언티스트들이 서로 모여 프로젝트를 공유하고 새로운 경험을 나누는 자리입니다.
-										미국판 [데이터야 놀자!]같은 컨퍼런스이랄까요? 
-										9월27일 뉴욕에서 열린 미디어업계 관련 컨퍼런스를 참관한 후기를 나누고자 발표를 준비하였습니다!  
+										1) '실시간 데이터 수집 오픈소스(<a href="https://github.com/koshort/koshort">KoShort</a>)'를 하면서 겪은 어려움에 대한 이야기.
+										<br>2) 현업에서 '데이터 수집 및 정제 업무'를 하면서 느낀 이상과 현실.
 									</p>
+									<p>
+									</p>
+
 
 									<!-- session target -->
 									<h3> 대상 청중 </h3>
 									<p>
-										데이터 사이언스가 미디어를 어떻게 변화시키고 있는지 궁금한 분들
+										1) 기본적인 예제(ex. 네이버 인기검색어)는 해봤는데, 그 이후에 어떻게 해야할 지 난감하신 분.
+										<br>2) 동적으로 로딩되는 페이지를 크롤링해야 하는데, 웹드라이버가 너무 느려서 고민이신 분.
+										<br>3) 자신만의 데이터를 구축하는 이야기를 나눠보고 싶으신 분.
 									</p>
 
 
 									<!-- session target -->
 									<h3>발표 이해에 도움 되는 사전 지식</h3>
 									<p>
-										data science salon에 대한 구글링
+										전반적인 웹 지식(HTML, Javascript의 각각의 역할과 웹페이지 요청 과정), 웹 크롤링
 									</p>
 
 
@@ -129,9 +137,12 @@
 									<!-- speaker intro -->
 									<h3>연사 소개</h3>
 									<p>
-										10여년간 게임업계에서 일하다가 컨텐츠 데이터마이닝 전문 업체 (주)빅레이더를 창업하였습니다.
-										영화, 웹툰, 게임 컨텐츠에 대한 데이터마이닝을 꾸준히 진행 중이며, 
-										2018년 서울신용보증재단에서 주최 상권분석 빅데이터 경진대회 최우수상 수상하였습니다.   
+										현재 전자부품연구원 인공지능연구센터에서 '데이터 수집 및 정제' 업무를 하고 있으며, 서일대학교에 재학중입니다.
+										<br>실시간 스트리밍 패키지인 <a href="https://github.com/koshort/koshort">KoShort</a>에서 컨트리뷰터로 활동하고 있습니다.
+										<br>아직 많이 부족합니다. 여러분들께 많이 배우고 싶습니다. :)
+									</p>
+									<p>
+
 									</p>
 								</section>
 
@@ -157,13 +168,13 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
 			<!-- Google Tag Manager (noscript) -->
 			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FWPC3Z"
 			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
