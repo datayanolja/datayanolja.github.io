@@ -1,0 +1,89 @@
+@import '../libs/vars';
+@import '../libs/functions';
+@import '../libs/mixins';
+
+///
+/// Retrospect by TEMPLATED
+/// templated.co @templatedco
+/// Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+///
+
+/* Banner */
+
+	$banner_palette: 'accent2';
+
+	#banner {
+		@include padding(8em, 0);
+		@include color-typography($banner_palette);
+		@include color-button($banner_palette);
+		background-attachment: fixed;
+		background-image: url('images/overlay.png'), url('../../images/banner.jpg');
+		background-size: cover;
+		text-align: center;
+
+		h2 {
+			font-size: 2.5em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+		}
+
+		p {
+			color: _palette($banner_palette, fg-bold);
+			font-size: 1.5em;
+			margin-bottom: 1.75em;
+			text-transform: uppercase;
+		}
+
+		.icon {
+			border-radius: 100%;
+			border: solid 2px _palette($banner_palette, fg-bold);
+			color: _palette($banner_palette, fg-bold);
+			display: inline-block;
+			font-size: 3em;
+			height: 2.25em;
+			line-height: 1.25em;
+			margin-bottom: (_size(element-margin) * 0.25);
+			padding: 0.5em;
+			width: 2.25em;
+		}
+
+		@include breakpoint(xlarge) {
+			@include padding(11em, 0);
+		}
+
+		@include breakpoint(large) {
+			@include padding(9em, 0);
+
+			h2 {
+				font-size: 2em;
+			}
+		}
+
+		@include breakpoint(medium) {
+			@include padding(8em, 2em);
+		}
+
+		@include breakpoint(small) {
+			@include padding(5em, 2em);
+
+			h2 {
+				font-size: 1.5em;
+			}
+
+			p {
+				font-size: 1em;
+			}
+
+			.icon {
+				font-size: 2em;
+			}
+		}
+
+		@include breakpoint(xsmall) {
+			@include padding(5em, 2em);
+
+			.icon {
+				font-size: 1.5em;
+			}
+		}
+	}

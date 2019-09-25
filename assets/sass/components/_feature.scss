@@ -1,0 +1,86 @@
+@import '../libs/vars';
+@import '../libs/functions';
+@import '../libs/mixins';
+
+///
+/// Retrospect by TEMPLATED
+/// templated.co @templatedco
+/// Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+///
+
+/* Feature */
+
+	.feature {
+		@include vendor('display', 'flex');
+		@include vendor('align-items', 'center');
+		margin-bottom: (_size(element-margin) * 3);
+
+		&:last-child {
+			margin-bottom: _size(element-margin);
+		}
+
+		&.left {
+			@include vendor('flex-direction', 'row');
+		}
+
+		&.right {
+			@include vendor('flex-direction', 'row-reverse');
+		}
+
+		.image {
+			width: 48%;
+
+			img {
+				max-width: 100%;
+			}
+		}
+
+		.content {
+			@include padding(_size(element-margin), 3em);
+			width: 52%;
+		}
+
+		@include breakpoint(large) {
+			margin-bottom: (_size(element-margin) * 2);
+
+			.content {
+				@include padding((_size(element-margin) * 0.5), 2em);
+			}
+		}
+
+		@include breakpoint(medium) {
+			&.left, &.right {
+				@include vendor('flex-direction', 'column');
+			}
+
+			.image {
+				width: 100%;
+
+				img {
+					width: 100%;
+				}
+			}
+
+			.content {
+				@include padding(_size(element-margin), 2em);
+				width: 100%;
+			}
+		}
+
+		@include breakpoint(small) {
+			margin-bottom: _size(element-margin);
+
+			.content {
+				@include padding(_size(element-margin), (_size(element-margin) * 0.5));
+			}
+		}
+	}
+
+
+	@mixin color-feature($p: null) {
+		.feature {
+			background-color: _palette($p, border-bg);
+		}
+	}
+
+	@include color-feature;

@@ -1,0 +1,42 @@
+@import '../libs/vars';
+@import '../libs/functions';
+@import '../libs/mixins';
+
+///
+/// Retrospect by TEMPLATED
+/// templated.co @templatedco
+/// Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+///
+
+/* Image Grid */
+
+	.image-grid {
+		@include vendor('display', 'flex');
+		@include vendor('flex-wrap', 'wrap');
+		margin-bottom: (_size(element-margin) * 2);
+
+		.image {
+			margin: 0;
+			width: 25%;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		@include breakpoint(medium) {
+			margin-bottom: (_size(element-margin) * 1.5);
+
+			.image {
+				width: 50%;
+			}
+		}
+
+		@include breakpoint(xsmall) {
+			margin-bottom: _size(element-margin);
+
+			.image {
+				width: 100%;
+			}
+		}
+	}

@@ -1,0 +1,101 @@
+@import '../libs/vars';
+@import '../libs/functions';
+@import '../libs/mixins';
+
+///
+/// Retrospect by TEMPLATED
+/// templated.co @templatedco
+/// Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+///
+
+/* Section/Article */
+
+	section, article, header {
+		&.special {
+			text-align: center;
+		}
+	}
+
+	header {
+		p {
+			margin: 0 0 (_size(element-margin) * 0.75) 0;
+			position: relative;
+			text-transform: uppercase;
+		}
+
+		h2 + p {
+			font-size: 1.25em;
+			margin-top: (_size(element-margin) * -0.5);
+			line-height: 1.85em;
+		}
+
+		h3 + p {
+			font-size: 1.1em;
+			margin-top: (_size(element-margin) * -0.4);
+			line-height: 1.5em;
+		}
+
+		h4 + p,
+		h5 + p,
+		h6 + p {
+			font-size: 0.9em;
+			margin-top: (_size(element-margin) * -0.3);
+			line-height: 1.5em;
+		}
+
+		&.major {
+			margin-bottom: (_size(element-margin) * 2);
+
+			h2 {
+				font-size: 2.5em;
+			}
+		}
+
+		&.narrow {
+			max-width: 60%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		@include breakpoint(large) {
+			&.narrow {
+				max-width: 75%;
+			}
+		}
+
+		@include breakpoint(medium) {
+			&.narrow {
+				max-width: 100%;
+			}
+
+			&.major {
+				margin-bottom: _size(element-margin);
+
+				h2 {
+					font-size: 2em;
+				}
+			}
+		}
+
+		@include breakpoint(small) {
+			&.major {
+				h2 {
+					font-size: 1.5em;
+				}
+
+				p {
+					font-size: 1em;
+				}
+			}
+		}
+	}
+
+	@mixin color-section($p: null) {
+		header {
+			p {
+				color: _palette($p, fg-bold);
+			}
+		}
+	}
+
+	@include color-section;

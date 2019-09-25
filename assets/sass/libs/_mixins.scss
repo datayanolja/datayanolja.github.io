@@ -1,11 +1,24 @@
+// skel-baseline v3.0.0-dev | (c) n33 | skel.io | MIT licensed
+
+/// Applies a sub-palette to all components within an element (as well as the element itself).
+/// @param {string} $p Sub-palette.
+@mixin color($p) {
+	@include color-typography($p);
+	@include color-section($p);
+	@include color-feature($p);
+	@include color-form($p);
+	@include color-list($p);
+	@include color-table($p);
+	@include color-button($p);
+}
+
 /// Makes an element's :before pseudoelement a FontAwesome icon.
 /// @param {string} $content Optional content value to use.
-/// @param {string} $where Optional pseudoelement to target (before or after).
-@mixin icon($content: false, $where: before) {
+@mixin icon($content: false) {
 
 	text-decoration: none;
 
-	&:#{$where} {
+	&:before {
 
 		@if $content {
 			content: $content;
@@ -26,38 +39,6 @@
 /// @param {mixed} $tb Top/bottom padding.
 /// @param {mixed} $lr Left/right padding.
 /// @param {list} $pad Optional extra padding (in the following order top, right, bottom, left)
-/// @param {bool} $important If true, adds !important.
-@mixin padding($tb, $lr, $pad: (0,0,0,0), $important: null) {
-
-	@if $important {
-		$important: '!important';
-	}
-
-	$x: 0.1em;
-
-	@if unit(_size(element-margin)) == 'rem' {
-		$x: 0.1rem;
-	}
-
-	padding: ($tb + nth($pad,1)) ($lr + nth($pad,2)) max($x, $tb - _size(element-margin) + nth($pad,3)) ($lr + nth($pad,4)) #{$important};
-
-}
-
-/// Encodes a SVG data URL so IE doesn't choke (via codepen.io/jakob-e/pen/YXXBrp).
-/// @param {string} $svg SVG data URL.
-/// @return {string} Encoded SVG data URL.
-@function svg-url($svg) {
-
-	$svg: str-replace($svg, '"', '\'');
-	$svg: str-replace($svg, '%', '%25');
-	$svg: str-replace($svg, '<', '%3C');
-	$svg: str-replace($svg, '>', '%3E');
-	$svg: str-replace($svg, '&', '%26');
-	$svg: str-replace($svg, '#', '%23');
-	$svg: str-replace($svg, '{', '%7B');
-	$svg: str-replace($svg, '}', '%7D');
-	$svg: str-replace($svg, ';', '%3B');
-
-	@return url("data:image/svg+xml;charset=utf8,#{$svg}");
-
+@mixin padding($tb, $lr, $pad: (0,0,0,0)) {
+	padding: ($tb + nth($pad,1)) ($lr + nth($pad,2)) max(0.1em, $tb - _size(element-margin) + nth($pad,3)) ($lr + nth($pad,4));
 }

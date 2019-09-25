@@ -1,0 +1,40 @@
+@import '../libs/vars';
+@import '../libs/functions';
+@import '../libs/mixins';
+
+///
+/// Retrospect by TEMPLATED
+/// templated.co @templatedco
+/// Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+///
+
+/* Box */
+
+	.box {
+		border-radius: _size(border-radius);
+		border-style: solid;
+		border-width: _size(border-width);
+		margin-bottom: _size(element-margin);
+		padding: 1.5em;
+
+		> :last-child,
+		> :last-child > :last-child,
+		> :last-child > :last-child > :last-child {
+			margin-bottom: 0;
+		}
+
+		&.alt {
+			border: 0;
+			border-radius: 0;
+			padding: 0;
+		}
+	}
+
+
+	@mixin color-box($p: null) {
+		.box {
+			border-color: _palette($p, border);
+		}
+	}
+
+	@include color-box;
