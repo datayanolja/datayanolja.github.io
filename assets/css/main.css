@@ -2661,7 +2661,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #51BAA4;
+			background-color: ##51BAA4;
 			box-shadow: none;
 			color: #fff !important;
 		}
@@ -3658,6 +3658,7 @@
 
 			#header > h1 a {
 				font-size: 1.25em;
+				padding: 1em 0 0 0;
 			}
 
 		#header a {
@@ -3711,6 +3712,7 @@
 
 			#header.alt a[href="#nav"] {
 				margin-right: 0;
+				padding: 1em 0 0 0;
 			}
 
 	@media screen and (max-width: 980px) {
@@ -3963,7 +3965,7 @@
 			#banner input[type="button"].special,
 			#banner button.special,
 			#banner .button.special {
-				background-color: #51BAA4;
+				background-color: #A37E17;
 				box-shadow: none;
 				color: #fff !important;
 			}
@@ -4039,7 +4041,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#banner {
-				padding: 30% 0 3em 0;
+				padding: 35% 0 3em 0;
 			}
 
 		}
@@ -4047,7 +4049,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 30% 0 3em 0;
+				padding: 35% 0 3em 0;
 			}				
 
 		}
@@ -4055,7 +4057,7 @@
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 30% 2em 2em 2em;
+				padding: 35% 2em 2em 2em;
 			}
 			#banner h2 {
                                         font-size: 2em;
@@ -4066,7 +4068,7 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 30% 2em 2em 2em;
+				padding: 35% 2em 2em 2em;
 			}
 
 				#banner h2 {
@@ -4086,7 +4088,7 @@
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 30% 2em 0.2em 2em;
+				padding: 35% 2em 0.2em 2em;
 			}
 
 				#banner h2 {
