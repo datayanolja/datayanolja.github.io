@@ -2612,6 +2612,14 @@
 			.button {
 				padding: 0;
 			}
+			button.big,
+			.button.big {
+			font-size: 1.2em;
+			height: 2.5em;
+			width: auto;
+			line-height: 2.5em;
+			padding: 0;
+		}
 
 		}
 
@@ -3877,10 +3885,14 @@
 	#banner {
 		padding: 8em 0 6em 0;
 		background-color: #1E2832;
-		color: rgba(255, 255, 255, 0.75);
+		color: rgba(255, 255, 255, 0.80);
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-		background-size: cover;
+		background-image: url("images/overlay.png"), url("../../images/banner.png");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center top;
+		/* max-width: 100%;
+		height: auto; */
 		text-align: center;
 	}
 
@@ -4028,7 +4040,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#banner {
-				padding: 11em 0 9em 0;
+				padding: 30% 0 3em 0;
 			}
 
 		}
@@ -4036,27 +4048,26 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 9em 0 7em 0;
-			}
-
-				#banner h2 {
-					font-size: 2em;
-				}
+				padding: 30% 0 3em 0;
+			}				
 
 		}
 
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 8em 2em 6em 2em;
+				padding: 30% 2em 2em 2em;
 			}
+			#banner h2 {
+                                        font-size: 2em;
+                                }
 
 		}
 
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 5em 2em 3em 2em;
+				padding: 30% 2em 2em 2em;
 			}
 
 				#banner h2 {
@@ -4076,7 +4087,7 @@
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 5em 2em 3em 2em;
+				padding: 30% 2em 2em 2em;
 			}
 
 				#banner .icon {
