@@ -3658,7 +3658,6 @@
 
 			#header > h1 a {
 				font-size: 1.25em;
-				padding: 1em 0 0 0;
 			}
 
 		#header a {
@@ -3708,6 +3707,7 @@
 				color: inherit;
 				position: static;
 				float: left;
+				padding: 1em 0 0 0;
 			}
 
 			#header.alt a[href="#nav"] {
