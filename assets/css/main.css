@@ -2612,6 +2612,13 @@
 			.button {
 				padding: 0;
 			}
+			button.big,
+			.button.big {
+			font-size: 1.2em;
+			height: 2em;
+			line-height: 2em;
+			padding: 0;
+		}
 
 		}
 
@@ -2654,7 +2661,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #51BAA4;
+			background-color: ##51BAA4;
 			box-shadow: none;
 			color: #fff !important;
 		}
@@ -3651,6 +3658,7 @@
 
 			#header > h1 a {
 				font-size: 1.25em;
+				padding: 1em 0 0 0;
 			}
 
 		#header a {
@@ -3704,6 +3712,7 @@
 
 			#header.alt a[href="#nav"] {
 				margin-right: 0;
+				padding: 1em 0 0 0;
 			}
 
 	@media screen and (max-width: 980px) {
@@ -3877,10 +3886,14 @@
 	#banner {
 		padding: 8em 0 6em 0;
 		background-color: #1E2832;
-		color: rgba(255, 255, 255, 0.75);
+		color: rgba(255, 255, 255, 0.80);
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-		background-size: cover;
+		background-image: url("images/overlay.png"), url("../../images/Main_image.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center top;
+		/* max-width: 100%;
+		height: auto; */
 		text-align: center;
 	}
 
@@ -3952,7 +3965,7 @@
 			#banner input[type="button"].special,
 			#banner button.special,
 			#banner .button.special {
-				background-color: #51BAA4;
+				background-color: #A37E17;
 				box-shadow: none;
 				color: #fff !important;
 			}
@@ -4028,7 +4041,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#banner {
-				padding: 11em 0 9em 0;
+				padding: 35% 0 3em 0;
 			}
 
 		}
@@ -4036,27 +4049,26 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 9em 0 7em 0;
-			}
-
-				#banner h2 {
-					font-size: 2em;
-				}
+				padding: 35% 0 3em 0;
+			}				
 
 		}
 
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 8em 2em 6em 2em;
+				padding: 35% 2em 2em 2em;
 			}
+			#banner h2 {
+                                        font-size: 2em;
+                                }
 
 		}
 
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 5em 2em 3em 2em;
+				padding: 35% 2em 2em 2em;
 			}
 
 				#banner h2 {
@@ -4076,9 +4088,13 @@
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 5em 2em 3em 2em;
+				padding: 35% 2em 0.2em 2em;
 			}
 
+				#banner h2 {
+					font-size: 1.1em;
+					margin: 2em 0 3.5em 0;
+				}
 				#banner .icon {
 					font-size: 1.5em;
 				}
