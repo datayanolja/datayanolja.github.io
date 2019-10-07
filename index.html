@@ -17,127 +17,132 @@
 	<body class="landing">
 
 		<!-- Header -->
-			<header id="header" class="alt">
-				<h1><a href="index.html">데이터야놀자</a></h1>
-				<a href="#nav"></a>
-			</header>
+		<header id="header" class="alt">
+			<h1><a href="index.html">데이터야놀자</a></h1>
+			<a href="#nav"></a>
+		</header>
 
 		<!-- Nav -->
-			<nav id="nav">
-				<ul class="links">
-					<li><a href="intro.html">행사소개</a></li>
-					<li><a href="https://datayanolja.github.io/2018-datayanolja/index.html">데놀18</a></li>
-					<li><a href="program.html">프로그램</a></li>
-					<li><a href="speaker_guide.html">발표지침</a></li>
-					<li><a href="sponsor.html">상호후원</a></li>
-					<li><a href="ticket.html">티켓안내</a></li>
-				</ul>
-			</nav>
+		{% include navigation.html %}
 
 		<!-- Banner -->
-			<section id="banner">
-				<p></p>
-				<h2>2019년 10월 19일 토요일 그랜드 오픈!</h2>
-				<ul class="actions">
-					<li><a href="program.html" class="button big special">TimeTable</a></li>
-				</ul>
-			</section>
+		<section id="banner">
+			<p></p>
+			<h2>2019년 10월 19일 토요일 그랜드 오픈!</h2>
+			<ul class="actions">
+				<li><a href="program.html" class="button big special">TimeTable</a></li>
+			</ul>
+		</section>
 
-		<!-- One -->
-			<section id="one" class="wrapper style1">
-				<div class="inner">
-					<article class="feature left">
-						<span class="image"><img src="images/index_intro.jpg" alt="" /></span>
-						<div class="content">
-							<h2>데이터야놀자 소개</h2>
-							<p>데이터야놀자는 데이터를 다루는 모든 사람들의 축제입니다. 데이터에 대한 관심은 나날이 늘어나고 있지만, 데이터를 가지고 '놀 줄 아는' 사람들의 이야기는 주변에서 쉽게 듣기가 어렵습니다. 데이터야놀자는 데이터 사용자들이 데이터와 더 잘 '놀' 수 있는 방법을 고민하고, 이를 여러분들과 함께 이야기해보고 싶습니다.</p>
-							<ul class="actions">
-								<li>
-									<a href="intro.html" class="button alt">More</a>
-								</li>
-							</ul>
-						</div>
-					</article>
-					<article class="feature right">
-						<span class="image"><img src="images/index_program.jpg" alt="" /></span>
-						<div class="content">
-							<h2>프로그램 안내</h2>
-							<p>타임테이블 공개!</p>
-							<ul class="actions">
-								<li>
-									<a href="program.html" class="button alt">More</a>
-								</li>
-							</ul>
-						</div>
-					</article>
-					<article class="feature left">
-						<span class="image"><img src="images/index_partners.jpg" alt="" /></span>
-						<div class="content">
-							<h2>상호후원</h2>
-							<p>특급 서비스를 도와주실 파트너들</p>
-							<ul class="actions">
-								<li>
-									<a href="#" class="button alt">More</a>
-								</li>
-							</ul>
-						</div>
-					</article>
+	<!-- First Floor: 데이터야 놀자 소개 -->
+	<section id="first-floor" class="wrapper special">
+		<!-- TODO: 스타일링 -->
+		<header class="floor-header">
+			<div class="floor-main">1st Floor</div>
+		</header>
+		<div class="inner">
+			<div class="floor-title">데이터야놀자 2019: 호텔 데루나</div>
+			<div class="floor-desc">
+				데이터야놀자는 데이터를 다루는 모든 사람들의 축제입니다. 데이터에 대한 관심은 나날이 늘어나고 있지만, 데이터를 가지고 '놀 줄 아는' 사람들의 이야기는 주변에서 쉽게 듣기가 어렵습니다. 데이터야놀자는 데이터 사용자들이 데이터와 더 잘 '놀' 수 있는 방법을 고민하고, 이를 여러분들과 함께 이야기해보고 싶습니다.
+			</div>
+			<!-- TODO: 적절한 이미지 or 문구 배치, 버튼 동작 -->
+			<ul class="actions">
+				<li><a href="intro.html" class="button big alt">MORE</a></li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Second Floor: 2019 프로그램 안내 -->
+	<section id="second-floor" class="wrapper special">
+		<!-- TODO: 스타일링 -->
+		<header class="floor-header">
+			<div class="floor-main">2nd Floor</div>
+		</header>
+		<div class="inner">
+			<div class="floor-title">프로그램 안내</div>
+			<div class="floor-desc">
+				<div class="course-container">
+					<span class="course-title">A 코스</span>
+					<span class="course-desc">현업에서 얻은 데이터 경험</span>
+					<span class="course-title">B 코스</span>
+					<span class="course-desc">현장 또는 나와 함께하는 데이터</span>
 				</div>
-			</section>
+			</div>
+			<ul class="actions">
+				<li><a href="program.html" class="button big alt">MORE</a></li>
+			</ul>
+		</div>
+	</section>
 
-		<!-- Two -->
-			<section id="two" class="wrapper special">
-				<div class="inner">
-					<header class="major narrow">
-						<h2>데놀이 걸어온 길</h2>
-						<p>지신밟기, 인디밴드, 캠핑 의자... 어서와 이런행사는 처음이지?</p>
-						<p><b>since 2016</b></p>
-					</header>
-					<div class="image-grid">
-						<a href="#" class="image"><img src="images/index_pic1.jpg" alt="" /></a>
-						<a href="#" class="image"><img src="images/index_pic2.jpg" alt="" /></a>
-						<a href="#" class="image"><img src="images/index_pic3.jpg" alt="" /></a>
-						<a href="#" class="image"><img src="images/index_pic4.jpg" alt="" /></a>
-						<a href="#" class="image"><img src="images/index_pic5.jpg" alt="" /></a>
-						<a href="#" class="image"><img src="images/index_pic6.jpg" alt="" /></a>
-						<a href="#" class="image"><img src="images/index_pic7.jpg" alt="" /></a>
-						<a href="#" class="image"><img src="images/index_pic8.jpg" alt="" /></a>
-					</div>
-					<ul class="actions">
-						<li><a href="#" class="button big alt">Tempus Aliquam</a></li>
-					</ul>
-				</div>
-			</section>
+	<!-- Third Floor: 상호후원 -->
+	<section id="third-floor" class="wrapper special">
+		<!-- TODO: 스타일링 -->
+		<header class="floor-header">
+			<div class="floor-main">3rd Floor</div>
+		</header>
+		<div class="inner">
+			<div class="floor-title">상호 후원</div>
+			<div class="floor-desc">
+				특급 서비스를 도와주실 파트너들
+			</div>
+			<!-- TODO: Carousel & Logo -->
+			<ul class="actions">
+				<li><a href="mailto:datayanolja.master@gmail.com" class="button big alt">후원하기</a></li>
+			</ul>
+		</div>
+	</section>
 
-		<!-- Three -->
-			<section id="three" class="wrapper style3 special">
-				<div class="inner">
-					<header class="major narrow	">
-						<h2>데놀과 소통하기</h2>
-						<p>데놀과 함께하고싶은 후원사 손님이나, 데놀 서비스에 불편함을 느낀신 분들은</p>
-						<p>주저하지 마시고 지배인에게 연락해주시기 바랍니다. </p>
-					</header>
-					<ul class="actions">
-						<li><a href="mailto:datayanolja.master@gmail.com" class="button big alt">Contact  지배인</a></li>
-					</ul>
-				</div>
-			</section>
+	<!-- Fourth Floor: 데놀이 걸어온 길 -->
+	<section id="fourth-floor" class="wrapper special">
+		<!-- TODO: 스타일링 -->
+		<header class="floor-header">
+			<div class="floor-main">4th Floor</div>
+		</header>
+		<div class="inner">
+			<div class="floor-title">데놀이 걸어온 길</div>
+			<div class="floor-desc">
+				지신밟기, 인디밴드, 캠핑 의자... 어서와 이런행사는 처음이지?
+			</div>
+			<div class="image-grid">
+				<a href="#" class="image"><img src="images/index_pic1.jpg" alt="" /></a>
+				<a href="#" class="image"><img src="images/index_pic2.jpg" alt="" /></a>
+				<a href="#" class="image"><img src="images/index_pic3.jpg" alt="" /></a>
+				<a href="#" class="image"><img src="images/index_pic4.jpg" alt="" /></a>
+				<a href="#" class="image"><img src="images/index_pic5.jpg" alt="" /></a>
+				<a href="#" class="image"><img src="images/index_pic6.jpg" alt="" /></a>
+				<a href="#" class="image"><img src="images/index_pic7.jpg" alt="" /></a>
+				<a href="#" class="image"><img src="images/index_pic8.jpg" alt="" /></a>
+			</div>
+		</div>
+	</section>
 
+	<!-- Top Floor: 데놀과 소통하기 -->
+	<section id="last-floor" class="wrapper style3 special">
+		<!-- TODO: 스타일링 -->
+		<header class="floor-header">
+			<div class="floor-main">Top Floor</div>
+		</header>
+		<div class="inner">
+			<div class="floor-title">데놀과 소통하기</div>
+			<div class="floor-desc">
+				데놀과 함께하고싶은 후원사 손님이나, 데놀 서비스에 불편함을 느낀신 분들은 주저하지 마시고 지배인에게 연락해주시기 바랍니다.
+			</div>
+			<ul class="actions">
+				<li><a href="mailto:datayanolja.master@gmail.com" class="button big alt">지배인 연락하기</a></li>
+			</ul>
+		</div>
+	</section>
 
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="inner">
 					<ul class="icons">
-
 						<li><a href="https://www.facebook.com/datayanolja.github.io/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="https://www.instagram.com/dataya_nolja/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="https://github.com/datayanolja" class="icon fa-github"><span class="label">Github</span></a></li>
-						
 					</ul>
 					<ul class="copyright">
 						<li>&copy; 데이터야놀자</li>
-						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						<li>Images: <a href="https://unsplash.com">UNSPLASH</a></li>
 					</ul>
 				</div>
 			</footer>
