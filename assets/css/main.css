@@ -11,6 +11,10 @@
 /* Custom Style: Datayanolja*/
 
 /* TODO: 커스텀 스타일링*/
+#banner {
+	height: 1vh;
+}
+
 #first-floor {
 	background-color: skyblue;
 }
@@ -45,6 +49,20 @@
 .floor-desc {
 	padding-bottom: 30px;
 }
+
+.flexslider {
+	background: none !important;
+	border: none !important;
+}
+
+.flexslider .slides img {
+	width: auto; 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	width: 50% !important;
+}
+
 
 /* Custom Style End */
 

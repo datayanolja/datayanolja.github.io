@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/js/flexslider2/flexslider.css"/>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -91,10 +92,25 @@
 		</header>
 		<div class="inner">
 			<div class="floor-title">상호 후원</div>
-			<div class="floor-desc">
-				특급 서비스를 도와주실 파트너들
+			<div class="floor-desc">특급 서비스를 도와주실 파트너들</div>
+
+			<!-- Flexslider -->
+			<div class="flexslider">
+				<ul class="slides">
+				    <li class="slide-list">
+				      <img class="logo-img" src="images/logos/socar.png" />
+				    </li>
+				    <li class="slide-list">
+				      <img class="logo-img" src="images/logos/microsoft.png" />
+				    </li>
+				    <li class="slide-list">
+				      <img class="logo-img" src="images/logos/elastic.png" />
+				    </li>
+				    <li class="slide-list">
+				      <img class="logo-img" src="images/logos/carrot_market.png" />
+				    </li>
+			  	</ul>	
 			</div>
-			<!-- TODO: Carousel & Logo -->
 			<ul class="actions">
 				<li><a href="mailto:datayanolja.master@gmail.com" class="button big alt">후원하기</a></li>
 			</ul>
@@ -157,11 +173,27 @@
 			</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/flexslider2/jquery.flexslider.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/main.js"></script>
+		<script type="text/javascript">
+			$(window).load(function() {
+          		$('.flexslider').flexslider({
+		            animation: "fade",
+		            directionNav: true,
+		            controlNav: false,
+		            keyboardNav: true,
+		            slideToStart: 0,
+		            animationLoop: true,
+		            pauseOnHover: false,
+		            prevText: '',
+		            nextText: '',
+		            slideshowSpeed: 4000,
+        		});
+			});
+		</script>
 	</body>
 </html>
