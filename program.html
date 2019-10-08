@@ -294,51 +294,6 @@
 										<td class="timeText break">14:20 ~ 14:30</td>
 										<td colspan="2" class="break">BREAK</td>
 									</tr>
-										<tr>
-											<td class="timeText">14:30 ~ 15:10</td>
-											<td class="session">
-													<div class="title clickableTitle">
-														<strong class="title">
-															타다(TADA) 서비스의 데이터 웨어하우스 : 
-															<br>태초부터 현재까지
-														</strong>
-													</div>
-												
-													<div class="desc" id="desc">
-														<div class="summary">
-															<p class="descText"> 
-				
-															</p>
-														</div>
-														<hr>
-														<img class="profile"src="images/profile.png"/>
-														<span class="presenter">발표자 | </span>
-														<p class="descText"></p>
-													</div>
-												</td>
-												<td class="session">
-													<div class="title clickableTitle">
-														<strong class="title">
-															데이터 분석팀과 이스포츠 선수단의 
-															<br> 신뢰쌓기 프로세스
-														</strong>
-													</div>
-													
-													<div class="desc" id="desc">
-														<div class="summary">
-															<p class="descText">
-				
-															</p>
-														</div>
-														<hr>
-														<img class="profile"src="images/profile.png"/>
-														<span class="presenter">발표자 | </span>
-														<p class="descText">
-															
-														</p>
-													</div>
-												</td>
-										</tr>
 							<tr>
 									<td class="timeText break">14:20 ~ 14:30</td>
 									<td colspan="2" class="break">BREAK</td>
@@ -589,11 +544,11 @@
   				// if (ww < 768) {
 					var index = ($(this).closest('.container').find('.clickableTitle').index(this));
 					var desc = ($(this).closest('.container').find('.desc').eq(index));
-					if (desc.is(':visible')) {
-						desc.hide();
-					} else {
-						desc.show();
-					}
+					// if (desc.is(':visible')) {
+					// 	desc.hide();
+					// } else {
+					// 	desc.show();
+					// }
 				// }
 			});
 		});
