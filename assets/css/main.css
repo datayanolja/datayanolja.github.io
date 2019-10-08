@@ -2442,7 +2442,7 @@
 			word-break: keep-all;
 		}
 
-		img {
+		img.profile {
 			width: 80px;
 			height: 80px;
 			margin: 7px 20px 60px 0px;
@@ -2453,10 +2453,14 @@
 		strong, b, p {
 			color: #70643b;
 		}
-
+		
+		table td.gold {
+			background-color:#70643b !important; 
+			color:white !important;
+		}
 		@media(max-width: 738px) {
 			.title {
-				line-height: 14px;
+				line-height: 20px !important;
 			}
 			.on {
 				display: block !important;
@@ -2483,21 +2487,18 @@
 				font-size: 14px;
 				height: auto !important;
 				margin: 10px 0px;
-				line-height: 10px;
-			}
-
-			table td {
-				display: block;
+				line-height: 13px;
 			}
 
 			table td {
 				background-color: white;
+				display: block;
 			}
 
 			table td.break {
 				font-size: 14px;
 				width: 100%;
-				line-height: 18px;
+				line-height: 20px;
 				text-align: left !important;
 				background-color: rgba(144, 144, 144, 0.075);
 			}
@@ -2507,6 +2508,7 @@
 			}
 
 			table .timeText {
+				background: white !important;
 				width: 100% !important;
 				text-align: left !important;
 				font-size: 0.8rem;
@@ -2575,7 +2577,7 @@
 		table td.break {
 			width: 100%;
 			text-align: center;
-			line-height: 20px;
+			line-height: 26px;
 			background-color: rgba(144, 144, 144, 0.075);
 
 		}
@@ -2585,12 +2587,12 @@
 		}
 
 		table div.title {
-			height: 45px;
+			height: 55px;
 			overflow: hidden;
 		}
 
 		.title {
-			line-height: 20px;
+			line-height: 26px;
 		}
 
 		.desc {
