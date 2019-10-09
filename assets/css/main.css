@@ -12,7 +12,7 @@
 
 /* TODO: 커스텀 스타일링*/
 #banner {
-	height: 1vh;
+
 }
 
 #first-floor {
@@ -56,9 +56,9 @@
 }
 
 .flexslider .slides img {
-	width: auto; 
-	display: block; 
-	margin-left: auto; 
+	width: auto;
+	display: block;
+	margin-left: auto;
 	margin-right: auto;
 	width: 50% !important;
 }
