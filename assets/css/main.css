@@ -3725,7 +3725,7 @@
 			background-color: #1E2832;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
-			background-image: url("images/pattern.jpg"), url("../../images/pic11.jpg");
+			background-image: url("images/pattern.jpg");
 			background-size: 100% 60%;
 		}
 
