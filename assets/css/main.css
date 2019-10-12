@@ -36,14 +36,134 @@
     font-family: 'Noto Serif KR', serif;
 }
 
+#first-floor .floor-title .denol-title {
+	display: block;
+	padding: 0.5em;
+}
+
+#first-floor .floor-title .denol-title-2 {
+	display: block;
+	padding: 0.5em;
+}
+
 #first-floor .floor-desc {
-	padding-bottom: 30px;
+	margin-top: 2.5em;
+	padding: 1em;
 	width: 70%;
 	position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Noto Serif KR', serif;
 }
+
+
+@media only screen and (max-width: 600px) {
+	#banner {
+		background-image: url(images/intro_dnol.jpg) !important;
+	}
+
+	#banner h2 {
+		/*display: none;*/
+	}
+
+	#first-floor .floor-main {
+		font-size: 2.5em;
+		margin-top: 1em;
+		color: #70643b;
+	    font-weight: bold;
+	    font-family: 'DM Serif Text', serif;
+	}
+
+	#first-floor .floor-title {
+		font-size: 1.5em;
+		color: #70643b;
+	    font-family: 'Noto Serif KR', serif;
+	}
+
+	#first-floor .floor-desc {
+		display: none;
+	}
+
+	#second-floor .floor-main {
+		font-size: 2.5em;
+		margin-top: 1em;
+		font-weight: bold;
+	    font-family: 'DM Serif Text', serif;
+	}
+
+	#second-floor .floor-title {
+		font-size: 1.5em;
+		padding-bottom: 0;
+	    font-family: 'Noto Serif KR', serif;
+	}
+
+	#second-floor .floor-desc {
+		font-size: 1em;
+	    font-family: 'Noto Serif KR', serif;
+	}
+
+	#third-floor .floor-main {
+		font-size: 2.5em;
+		margin-top: 1em;
+		font-weight: bold;
+	    font-family: 'DM Serif Text', serif;
+	}
+
+	#third-floor .floor-title {
+		font-size: 1.5em;
+	    font-family: 'Noto Serif KR', serif;
+	}
+
+	#third-floor .floor-desc {
+		font-size: 1em;
+	    font-family: 'Noto Serif KR', serif;
+	}
+
+	#fourth-floor .floor-main {
+		font-size: 2.5em;
+		margin-top: 1em;
+		font-weight: bold;
+	    font-family: 'DM Serif Text', serif;
+	}
+
+	#fourth-floor .floor-title {
+		font-size: 1.5em;
+	    font-family: 'Noto Serif KR', serif;
+	}
+
+	#fourth-floor .floor-desc {
+		font-size: 1em;
+	    font-family: 'Noto Serif KR', serif;
+	}
+
+	#last-floor .floor-main {
+		font-size: 2.5em;
+		margin-top: 1em;
+		font-weight: bold;
+	    font-family: 'DM Serif Text', serif;
+	}
+
+	#last-floor .floor-title {
+		font-size: 1.5em;
+	    font-family: 'Noto Serif KR', serif;
+	}
+
+	#last-floor .floor-desc {
+		font-size: 1em;
+	    font-family: 'Noto Serif KR', serif;
+	}
+
+	.image-grid .non-mobile {
+		display: none;
+	}
+
+/*	.button {
+		width: 50% !important;
+
+	}*/
+
+}
+
 
 #second-floor {
     background-image: url(images/gold_background.jpg);
@@ -57,6 +177,7 @@
 	display: block;
 	padding: 20px;
 }
+
 
 #second-floor .floor-desc .course-desc {
 	font-size: 1em;
@@ -2474,7 +2595,7 @@
 			@media screen and (max-width: 480px) {
 
 				ul.actions {
-					margin: 0 0 2em 0;
+					margin: 0 0 3em 0;
 				}
 
 					ul.actions > li {
@@ -2564,9 +2685,9 @@
 		strong, b, p {
 			color: #70643b;
 		}
-		
+
 		table td.gold {
-			background-color:#70643b !important; 
+			background-color:#70643b !important;
 			color:white !important;
 		}
 		@media(max-width: 738px) {
@@ -2883,6 +3004,7 @@
 			height: 2em;
 			line-height: 2em;
 			padding: 0;
+			width: 50%;
 		}
 
 		}
@@ -4353,12 +4475,11 @@
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 35% 2em 0.2em 2em;
+				padding: 1px 2em 0.2em 2em;
 			}
-
 				#banner h2 {
-					font-size: 1.1em;
-					margin: 2em 0 3.5em 0;
+				    font-size: 1.1em;
+				    margin: 6em 0 0.5em 0;
 				}
 				#banner .icon {
 					font-size: 1.5em;
