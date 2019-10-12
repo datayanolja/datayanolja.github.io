@@ -2445,7 +2445,7 @@
 		img.profile {
 			width: 80px;
 			height: 80px;
-			margin: 7px 20px 60px 0px;
+			margin: 7px 20px 80px 0px;
 			float: left;
 			display: inline-block;
 		}
@@ -2459,6 +2459,14 @@
 			color:white !important;
 		}
 		@media(max-width: 738px) {
+			img.profile {
+				width: 80px;
+				height: 80px;
+				margin: 7px 20px 0px 0px;
+				float: left;
+				display: inline-block;
+			}
+
 			.title {
 				line-height: 20px !important;
 			}
@@ -2597,12 +2605,12 @@
 
 		.desc {
 			display: none;
-			height: 300px;
+			height: 340px;
 			overflow: hidden;
 		}
 
 		.summary {
-			height: 120px;
+			height: 140px;
 			overflow: hidden;
 		}
 
