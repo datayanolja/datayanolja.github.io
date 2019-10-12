@@ -16,37 +16,69 @@
 }
 
 #first-floor {
-	background-color: skyblue;
+	background-image: url(images/white_background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
-#second-floor {
-	background-color: antiquewhite;
-}
-
-#third-floor {
-	background-color: aquamarine;
-}
-
-#fourth-floor {
-	background-color: skyblue;
-}
-
-#top-floor {
-	background-color: cadetblue;
-}
-
-.floor-main {
-	    font-size: 50px;
+/*#first-floor .floor-main {
+	font-size: 3.5em;
+	color: #70643b;
     padding-bottom: 50px;
     font-weight: bold;
 }
 
+#first-floor .floor-title {
+	font-size: 2.5em;
+	color: #70643b;
+    padding-bottom: 30px;
+}
+
+#first-floor .floor-desc {
+	padding-bottom: 30px;
+}*/
+
+#second-floor {
+    background-image: url(images/gold_background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#third-floor {
+    background-image: url(images/white_background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#fourth-floor {
+    background-image: url(images/gold_background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#last-floor {
+/*	background-image: url("images/contact_background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+*/
+}
+
+.floor-main {
+	font-size: 3.5em;
+	color: #DAA520;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-family: 'DM Serif Text', serif;
+}
+
 .floor-title {
-	font-size: 30px;
+	font-size: 2.5em;
+	color: #FFDF00;
     padding-bottom: 30px;
 }
 
 .floor-desc {
+	color: #E6BE8A;
 	padding-bottom: 30px;
 }
 
@@ -3396,8 +3428,8 @@
 			background-color: #1E2832;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/pic11.jpg");
-			background-size: cover;
+			background-image: url("images/pattern.png"), url("../../images/pic11.jpg");
+			background-size: 100% 60%;
 		}
 
 			.wrapper.style3 input, .wrapper.style3 select, .wrapper.style3 textarea {
