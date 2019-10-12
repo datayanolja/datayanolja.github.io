@@ -56,12 +56,63 @@
     font-family: 'Noto Serif KR', serif;
 }
 
+#second-floor {
+    background-image: url(images/gold_background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#second-floor .floor-desc .course-title {
+	font-size: 1.5em;
+	font-weight: bold;
+	display: block;
+	padding: 20px;
+}
+
+
+#second-floor .floor-desc .course-desc {
+	font-size: 1em;
+	display: block;
+}
+
+#third-floor {
+    background-image: url(images/white_background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#third-floor .floor-main {
+	font-size: 3.5em;
+	color: #70643b;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-family: 'DM Serif Text', serif;
+}
+
+#third-floor .floor-title {
+	font-size: 2.5em;
+	color: #70643b;
+    padding-bottom: 30px;
+    font-family: 'Noto Serif KR', serif;
+}
+
+
+#fourth-floor {
+    background-image: url(images/gold_background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#last-floor {
+
+}
+
 
 @media only screen and (max-width: 600px) {
 	#banner {
 		background-image: url(images/intro_dnol.jpg) !important;
 	}
-
+	/* TODO */
 	#banner h2 {
 		/*display: none;*/
 	}
@@ -136,6 +187,10 @@
 	    font-family: 'Noto Serif KR', serif;
 	}
 
+	#fourth-floor > img {
+		padding: 0.5em;
+	}
+
 	#last-floor .floor-main {
 		font-size: 2.5em;
 		margin-top: 1em;
@@ -156,52 +211,8 @@
 	.image-grid .non-mobile {
 		display: none;
 	}
-
-/*	.button {
-		width: 50% !important;
-
-	}*/
-
 }
 
-
-#second-floor {
-    background-image: url(images/gold_background.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-
-#second-floor .floor-desc .course-title {
-	font-size: 1.5em;
-	font-weight: bold;
-	display: block;
-	padding: 20px;
-}
-
-
-#second-floor .floor-desc .course-desc {
-	font-size: 1em;
-	display: block;
-}
-
-#third-floor {
-    background-image: url(images/white_background.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-
-#fourth-floor {
-    background-image: url(images/gold_background.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
-
-#last-floor {
-/*	background-image: url("images/contact_background.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-*/
-}
 
 .floor-main {
 	font-size: 3.5em;
@@ -3726,7 +3737,7 @@
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
 			background-image: url("images/pattern.jpg");
-			background-size: 100% 60%;
+			background-size: 100% 80%;
 		}
 
 			.wrapper.style3 input, .wrapper.style3 select, .wrapper.style3 textarea {
