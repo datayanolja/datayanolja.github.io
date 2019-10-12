@@ -21,27 +21,46 @@
     background-repeat: no-repeat;
 }
 
-/*#first-floor .floor-main {
+#first-floor .floor-main {
 	font-size: 3.5em;
 	color: #70643b;
     padding-bottom: 50px;
     font-weight: bold;
+    font-family: 'DM Serif Text', serif;
 }
 
 #first-floor .floor-title {
 	font-size: 2.5em;
 	color: #70643b;
     padding-bottom: 30px;
+    font-family: 'Noto Serif KR', serif;
 }
 
 #first-floor .floor-desc {
 	padding-bottom: 30px;
-}*/
+	width: 70%;
+	position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Noto Serif KR', serif;
+}
 
 #second-floor {
     background-image: url(images/gold_background.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+
+#second-floor .floor-desc .course-title {
+	font-size: 1.5em;
+	font-weight: bold;
+	display: block;
+	padding: 20px;
+}
+
+#second-floor .floor-desc .course-desc {
+	font-size: 1em;
+	display: block;
 }
 
 #third-floor {
@@ -75,11 +94,13 @@
 	font-size: 2.5em;
 	color: #FFDF00;
     padding-bottom: 30px;
+    font-family: 'Noto Serif KR', serif;
 }
 
 .floor-desc {
 	color: #E6BE8A;
 	padding-bottom: 30px;
+	font-family: 'Noto Serif KR', serif;
 }
 
 .flexslider {
