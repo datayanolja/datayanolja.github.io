@@ -8,6 +8,117 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+/* Custom Style: Datayanolja*/
+
+/* TODO: 커스텀 스타일링*/
+#banner {
+
+}
+
+#first-floor {
+	background-image: url(images/white_background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#first-floor .floor-main {
+	font-size: 3.5em;
+	color: #70643b;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-family: 'DM Serif Text', serif;
+}
+
+#first-floor .floor-title {
+	font-size: 2.5em;
+	color: #70643b;
+    padding-bottom: 30px;
+    font-family: 'Noto Serif KR', serif;
+}
+
+#first-floor .floor-desc {
+	padding-bottom: 30px;
+	width: 70%;
+	position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Noto Serif KR', serif;
+}
+
+#second-floor {
+    background-image: url(images/gold_background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#second-floor .floor-desc .course-title {
+	font-size: 1.5em;
+	font-weight: bold;
+	display: block;
+	padding: 20px;
+}
+
+#second-floor .floor-desc .course-desc {
+	font-size: 1em;
+	display: block;
+}
+
+#third-floor {
+    background-image: url(images/white_background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#fourth-floor {
+    background-image: url(images/gold_background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#last-floor {
+/*	background-image: url("images/contact_background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+*/
+}
+
+.floor-main {
+	font-size: 3.5em;
+	color: #DAA520;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-family: 'DM Serif Text', serif;
+}
+
+.floor-title {
+	font-size: 2.5em;
+	color: #FFDF00;
+    padding-bottom: 30px;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.floor-desc {
+	color: #E6BE8A;
+	padding-bottom: 30px;
+	font-family: 'Noto Serif KR', serif;
+}
+
+.flexslider {
+	background: none !important;
+	border: none !important;
+}
+
+.flexslider .slides img {
+	width: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50% !important;
+}
+
+
+/* Custom Style End */
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -3492,8 +3603,8 @@
 			background-color: #1E2832;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/pic11.jpg");
-			background-size: cover;
+			background-image: url("images/pattern.png"), url("../../images/pic11.jpg");
+			background-size: 100% 60%;
 		}
 
 			.wrapper.style3 input, .wrapper.style3 select, .wrapper.style3 textarea {
@@ -4204,7 +4315,7 @@
 
 			#banner {
 				padding: 35% 0 3em 0;
-			}				
+			}
 
 		}
 
