@@ -10,9 +10,12 @@
 
 /* Custom Style: Datayanolja*/
 
-/* TODO: 커스텀 스타일링*/
 #banner {
+	padding-top: calc(30% + 6em) !important;
+}
 
+#banner ul {
+	padding-bottom: calc(10% - 6em);
 }
 
 #first-floor {
@@ -111,10 +114,6 @@
 @media only screen and (max-width: 600px) {
 	#banner {
 		background-image: url(images/intro_dnol.jpg) !important;
-	}
-	/* TODO */
-	#banner h2 {
-		/*display: none;*/
 	}
 
 	#first-floor .floor-main {
