@@ -247,6 +247,24 @@
 	width: 50% !important;
 }
 
+/* NanoGallery */
+.nGY2TnImg {
+	background-color: white !important;
+}
+
+#nanogallery2-platgold .nGY2GThumbnailTitle {
+	text-shadow: none;
+	color: #A9A9A9;
+	font-family: 'DM Serif Text', serif;
+	font-size: calc(2em - 10px);
+}
+
+#nanogallery2-silverbronze .nGY2GThumbnailTitle {
+	text-shadow: none;
+	color: #E5C100;
+	font-family: 'DM Serif Text', serif;
+	font-size: calc(1.4em - 10px);
+}
 
 /* Custom Style End */
 

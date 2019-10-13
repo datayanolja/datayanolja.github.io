@@ -12,9 +12,16 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link href="https://fonts.googleapis.com/css?family=DM+Serif+Text|Noto+Sans+KR|Noto+Serif+KR&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/js/flexslider2/flexslider.css"/>
+		<!-- <link rel="stylesheet" href="assets/js/flexslider2/flexslider.css"/> -->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+		<!-- NanoGallery -->
+		<!-- nanogallery2 -->
+		<!-- jQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+        <link  href="https://unpkg.com/nanogallery2@2.4.2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+        <script  type="text/javascript" src="https://unpkg.com/nanogallery2@2.4.2/dist/jquery.nanogallery2.min.js"></script>
 	</head>
 	<body class="landing">
 
@@ -98,8 +105,13 @@
 			<div class="floor-title">상호 후원</div>
 			<div class="floor-desc">특급 서비스를 도와주실 파트너들</div>
 
+			<!-- NanoGallery -->
+			<div id="nanogallery2-platgold"></div>
+			<div id="nanogallery2-silverbronze"></div>
+			
+
 			<!-- Flexslider -->
-			<div class="flexslider">
+<!-- 			<div class="flexslider">
 				<ul class="slides">
 				    <li class="slide-list">
 				      <img class="logo-img" src="images/logos/socar.png" />
@@ -120,7 +132,7 @@
 				      <img class="logo-img" src="images/logos/line.png" />
 				    </li>
 			  	</ul>
-			</div>
+			</div>-->			
 			<ul class="actions">
 				<li><a href="mailto:datayanolja.master@gmail.com" class="button big alt">후원하기</a></li>
 			</ul>
@@ -183,27 +195,59 @@
 			</footer>
 
 		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/flexslider2/jquery.flexslider.js"></script>
+		<!-- <script src="assets/js/jquery.min.js"></script> -->
+		<!-- <script src="assets/js/flexslider2/jquery.flexslider.js"></script> -->
 		<script src="assets/js/skel.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 		<script src="assets/js/main.js"></script>
 		<script type="text/javascript">
-			$(window).load(function() {
-          		$('.flexslider').flexslider({
-		            animation: "fade",
-		            directionNav: true,
-		            controlNav: false,
-		            keyboardNav: true,
-		            slideToStart: 0,
-		            animationLoop: true,
-		            pauseOnHover: false,
-		            prevText: '',
-		            nextText: '',
-		            slideshowSpeed: 4000,
-        		});
-			});
+			var galleryCs = {
+				thumbnail : { background: '#FFF', borderColor: '#FFF'} 
+			}
+
+			let commonSettings = {
+				galleryMaxRows: 1,
+                thumbnailOpenImage: false,
+                thumbnailBorderHorizontal: 10,
+                galleryTheme: galleryCs,
+                thumbnailLabel:   { position: 'onBottom', hideIcons: true }
+                
+			}
+
+			let platGoldSettings = {
+				thumbnailWidth:   "1000 XS300 SM500",
+                thumbnailHeight:  "auto"
+			}
+
+			let silverBronzeSettings = {
+				thumbnailWidth:   "500 XS150 SM250",
+                thumbnailHeight:  "auto"
+			}
+
+			jQuery(document).ready(function () {
+
+						jQuery("#nanogallery2-platgold").nanogallery2( {
+						...platGoldSettings,
+						...commonSettings,            
+                        items: [
+                            { src: '#', srct: 'images/logos/microsoft.png', title: 'Platinum' },
+                            { src: '#', srct: 'images/logos/socar.png', title: 'Gold' }
+                          ]
+                      });
+
+                    jQuery("#nanogallery2-silverbronze").nanogallery2( {
+                    	...silverBronzeSettings,
+                        ...commonSettings,
+                        items: [
+                            { src: '#', srct: 'images/logos/carrot_market.png', title: 'Bronze' },
+                            { src: '#', srct: 'images/logos/elastic.png', title: 'Bronze' },
+                            { src: '#', srct: 'images/logos/line.png', title: 'Bronze' }
+                          ]
+                      });
+                  });
+
+
 		</script>
 	</body>
 </html>
