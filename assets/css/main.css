@@ -1764,7 +1764,7 @@
 	}
 
 	a {
-		color: #51BAA4;
+		color: white;
 	}
 
 	strong, b, h2 {
@@ -2539,6 +2539,16 @@
 				height: auto !important;
 				overflow: hidden;
 			}
+		}
+
+		.btnDownload {
+			display: block;
+			width: 100px;
+			background-color: #70643b;
+			color: white;
+			margin-left: auto;
+			margin-right: auto;
+			color: white;
 		}
 
 		.descText {
@@ -3793,7 +3803,7 @@
 		}
 
 	#header {
-		background: #07090c;
+		background: #70643b;
 		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
 		height: 3.25em;
@@ -3930,7 +3940,7 @@
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #07090c;
+		background: #70643b;
 		box-shadow: none;
 		color: #fff;
 		height: 100%;
