@@ -2751,7 +2751,7 @@
 		img.profile {
 			width: 80px;
 			height: 80px;
-			margin: 7px 20px 60px 0px;
+			margin: 7px 20px 80px 0px;
 			float: left;
 			display: inline-block;
 		}
@@ -2765,6 +2765,14 @@
 			color:white !important;
 		}
 		@media(max-width: 738px) {
+			img.profile {
+				width: 80px;
+				height: 80px;
+				margin: 7px 20px 0px 0px;
+				float: left;
+				display: inline-block;
+			}
+
 			.title {
 				line-height: 20px !important;
 			}
@@ -2839,6 +2847,17 @@
 			}
 		}
 
+		.btnDownload {
+			display: block;
+			width: 100px;
+			background-color: #70643b;
+			color: white;
+			margin-left: auto;
+			margin-right: auto;
+			color: white;
+			text-decoration: none;
+		}
+
 		.descText {
 			font-size: 14px;
 			line-height: 20px;
@@ -2903,12 +2922,12 @@
 
 		.desc {
 			display: none;
-			height: 300px;
+			height: 340px;
 			overflow: hidden;
 		}
 
 		.summary {
-			height: 120px;
+			height: 140px;
 			overflow: hidden;
 		}
 
@@ -4092,7 +4111,7 @@
 		}
 
 	#header {
-		background: #07090c;
+		background: #70643b;
 		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
 		height: 3.25em;
@@ -4229,7 +4248,7 @@
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #07090c;
+		background: #70643b;
 		box-shadow: none;
 		color: #fff;
 		height: 100%;
