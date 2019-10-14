@@ -1764,7 +1764,7 @@
 	}
 
 	a {
-		color: white;
+		color: #51BAA4;
 	}
 
 	strong, b, h2 {
@@ -2549,6 +2549,7 @@
 			margin-left: auto;
 			margin-right: auto;
 			color: white;
+			text-decoration: none;
 		}
 
 		.descText {
