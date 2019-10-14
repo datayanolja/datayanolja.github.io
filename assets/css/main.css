@@ -9,7 +9,6 @@
 */
 
 /* Custom Style: Datayanolja*/
-
 #banner {
 	padding-top: calc(30% + 6em) !important;
 }
@@ -27,7 +26,7 @@
 #first-floor .floor-main {
 	font-size: 3.5em;
 	color: #70643b;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     font-weight: bold;
     font-family: 'DM Serif Text', serif;
 }
@@ -52,17 +51,42 @@
 #first-floor .floor-desc {
 	margin-top: 2.5em;
 	padding: 1em;
-	width: 70%;
+	width: 90%;
+	color: #70643b;
 	position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 1.2em;
     font-family: 'Noto Serif KR', serif;
+}
+
+#first-floor .button {
+	color: #70643b !important;
+	box-shadow: inset 0 0 0 2px #70643b;
 }
 
 #second-floor {
     background-image: url(images/gold_background.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+
+#second-floor .course-container {
+	width: 100%;
+	height: 13em;
+	padding-top: 3em;
+}
+
+#second-floor .left {
+	width: 45%;
+	height: 70%;
+	float: left;
+}
+
+#second-floor .right {
+	width: 45%;
+	height: 70%;
+	float: right;
 }
 
 #second-floor .floor-desc .course-title {
@@ -72,11 +96,11 @@
 	padding: 20px;
 }
 
-
 #second-floor .floor-desc .course-desc {
 	font-size: 1em;
 	display: block;
 }
+
 
 #third-floor {
     background-image: url(images/white_background.jpg);
@@ -99,6 +123,15 @@
     font-family: 'Noto Serif KR', serif;
 }
 
+#third-floor .floor-desc {
+	color: #70643b;
+    font-family: 'Noto Serif KR', serif;
+}
+
+#third-floor .button {
+	color: #70643b !important;
+	box-shadow: inset 0 0 0 2px #70643b;
+}
 
 #fourth-floor {
     background-image: url(images/gold_background.jpg);
@@ -106,8 +139,14 @@
     background-repeat: no-repeat;
 }
 
-#last-floor {
+#last-floor .floor-main {
+	padding-bottom: 1.5em;
+}
 
+#last-floor .button {
+	margin-top: 1.5em;
+	color: #70643b !important;
+	box-shadow: inset 0 0 0 2px #70643b;
 }
 
 
@@ -151,6 +190,20 @@
 		font-size: 1em;
 	    font-family: 'Noto Serif KR', serif;
 	}
+
+	#second-floor .course-container {
+		height: 8em;
+		padding-top: 1em;
+	}
+
+	#second-floor .left {
+		font-size: 0.6em;
+	}
+
+	#second-floor .right {
+		font-size: 0.6em;
+	}
+
 
 	#third-floor .floor-main {
 		font-size: 2.5em;
@@ -215,7 +268,7 @@
 
 .floor-main {
 	font-size: 3.5em;
-	color: #DAA520;
+	color: #FFFFFF;
     padding-bottom: 50px;
     font-weight: bold;
     font-family: 'DM Serif Text', serif;
@@ -223,28 +276,20 @@
 
 .floor-title {
 	font-size: 2.5em;
-	color: #FFDF00;
+	color: #FFFFFF;
     padding-bottom: 30px;
     font-family: 'Noto Serif KR', serif;
 }
 
 .floor-desc {
-	color: #E6BE8A;
+	color: #FFFFFF;
 	padding-bottom: 30px;
 	font-family: 'Noto Serif KR', serif;
 }
 
-.flexslider {
-	background: none !important;
-	border: none !important;
-}
-
-.flexslider .slides img {
-	width: auto;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50% !important;
+.button .alt .big a{
+	color: #70643b !important;
+	box-shadow: inset 0 0 0 2px #70643b;
 }
 
 /* NanoGallery */
@@ -265,6 +310,7 @@
 	font-family: 'DM Serif Text', serif;
 	font-size: calc(1.4em - 10px);
 }
+
 
 /* Custom Style End */
 
@@ -3103,8 +3149,8 @@
 		button.alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #51BAA4;
-			color: #51BAA4 !important;
+			box-shadow: inset 0 0 0 2px #FFFFFF;
+			color: #FFFFFF !important;
 		}
 
 			input[type="submit"].alt:hover,
@@ -4303,7 +4349,7 @@
 		background-color: #1E2832;
 		color: rgba(255, 255, 255, 0.80);
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/Main_image.jpg");
+		background-image: url("../../images/Main_image.jpg");
 		background-repeat: no-repeat;
 		background-size: 100%;
 		background-position: center top;
