@@ -188,20 +188,22 @@
 			let commonSettings = {
 				galleryMaxRows: 1,
                 thumbnailOpenImage: false,
-                thumbnailBorderHorizontal: 10,
+                thumbnailGutterHeight: 50,
+                thumbnailGutterWidth: 50,
                 galleryTheme: galleryCs,
                 thumbnailLabel:   { position: 'onBottom', hideIcons: true }
                 
 			}
 
 			let platGoldSettings = {
-				thumbnailWidth:   "1000 XS300 SM500",
-                thumbnailHeight:  "auto"
+				thumbnailWidth:   "auto XS300 SM500",
+                thumbnailHeight:  "400"
 			}
 
 			let silverBronzeSettings = {
-				thumbnailWidth:   "500 XS150 SM250",
-                thumbnailHeight:  "auto"
+				thumbnailAlignment: 'center',
+				thumbnailWidth:   "auto XS150 SM250",
+                thumbnailHeight:  "250"
 			}
 
 			jQuery(document).ready(function () {
@@ -219,9 +221,13 @@
                     	...silverBronzeSettings,
                         ...commonSettings,
                         items: [
+                        	{ src: '#', srct: 'images/logos/goodmorning.png', title: 'Silver' },
                             { src: '#', srct: 'images/logos/carrot_market.png', title: 'Bronze' },
                             { src: '#', srct: 'images/logos/elastic.png', title: 'Bronze' },
-                            { src: '#', srct: 'images/logos/line.png', title: 'Bronze' }
+                            { src: '#', srct: 'images/logos/data_break.png', title: 'Bronze' },
+                            { src: '#', srct: 'images/logos/line.png', title: 'Bronze' },
+                            { src: '#', srct: 'images/logos/jetbrain.png', title: 'Bronze' },
+                            
                           ]
                       });
                   });

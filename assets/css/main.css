@@ -301,14 +301,14 @@
 	text-shadow: none;
 	color: #A9A9A9;
 	font-family: 'DM Serif Text', serif;
-	font-size: calc(2em - 10px);
+	font-size: calc(2.5em - 10px);
 }
 
 #nanogallery2-silverbronze .nGY2GThumbnailTitle {
 	text-shadow: none;
-	color: #E5C100;
+	color: #cd7f32;
 	font-family: 'DM Serif Text', serif;
-	font-size: calc(1.4em - 10px);
+	font-size: calc(2em - 10px);
 }
 
 
