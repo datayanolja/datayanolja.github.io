@@ -33,15 +33,16 @@
 
 		<!-- Nav -->
 		<nav id="nav">
-			<ul class="links">
-				<li><a href="intro.html">행사소개</a></li>
-				<li><a href="https://datayanolja.github.io/2018-datayanolja/index.html">데놀18</a></li>
-				<li><a href="program.html">프로그램</a></li>
-				<li><a href="speaker_guide.html">발표지침</a></li>
-				<li><a href="sponsor.html">상호후원</a></li>
-				<li><a href="ticket.html">티켓안내</a></li>
-			</ul>
-		</nav>
+                                <ul class="links">
+                                        <li><a href="intro.html">행사소개</a></li>
+                                        <li><a href="coc.html">행동강령</a></li>
+                                        <li><a href="program.html">프로그램</a></li>
+                                        <li><a href="speaker_guide.html">발표지침</a></li>
+                                        <li><a href="sponsor.html">상호후원</a></li>
+                                        <li><a href="ticket.html">티켓안내</a></li>
+                                         <li><a href="https://datayanolja.github.io/2018-datayanolja/index.html">데놀18</a></li>
+                                </ul>
+                        </nav>
 
 		<!-- Banner -->
 		<section id="banner">
@@ -111,7 +112,7 @@
 
 			<!-- NanoGallery -->
 			<div id="nanogallery2-platgold"></div>
-			<div id="nanogallery2-silverbronze"></div>			
+			<div id="nanogallery2-silverbronze"></div>
 			<ul class="actions">
 				<li><a href="mailto:datayanolja.master@gmail.com" class="button big alt">후원하기</a></li>
 			</ul>
@@ -182,33 +183,35 @@
 		<script src="assets/js/main.js"></script>
 		<script type="text/javascript">
 			var galleryCs = {
-				thumbnail : { background: '#FFF', borderColor: '#FFF'} 
+				thumbnail : { background: '#FFF', borderColor: '#FFF'}
 			}
 
 			let commonSettings = {
 				galleryMaxRows: 1,
                 thumbnailOpenImage: false,
-                thumbnailBorderHorizontal: 10,
+                thumbnailGutterHeight: 0,
+                thumbnailGutterWidth: 30,
                 galleryTheme: galleryCs,
                 thumbnailLabel:   { position: 'onBottom', hideIcons: true }
-                
+
 			}
 
 			let platGoldSettings = {
-				thumbnailWidth:   "1000 XS300 SM500",
-                thumbnailHeight:  "auto"
+				thumbnailWidth:   "auto",
+                thumbnailHeight:  "400 XS100 SM200"
 			}
 
 			let silverBronzeSettings = {
-				thumbnailWidth:   "500 XS150 SM250",
-                thumbnailHeight:  "auto"
+				thumbnailAlignment: 'center',
+				thumbnailWidth:   "auto",
+                thumbnailHeight:  "220 XS70 SM120"
 			}
 
 			jQuery(document).ready(function () {
 
 						jQuery("#nanogallery2-platgold").nanogallery2( {
 						...platGoldSettings,
-						...commonSettings,            
+						...commonSettings,
                         items: [
                             { src: '#', srct: 'images/logos/microsoft.png', title: 'Platinum' },
                             { src: '#', srct: 'images/logos/socar.png', title: 'Gold' }
@@ -219,9 +222,13 @@
                     	...silverBronzeSettings,
                         ...commonSettings,
                         items: [
+                        	{ src: '#', srct: 'images/logos/goodmorning.png', title: 'Silver' },
                             { src: '#', srct: 'images/logos/carrot_market.png', title: 'Bronze' },
                             { src: '#', srct: 'images/logos/elastic.png', title: 'Bronze' },
-                            { src: '#', srct: 'images/logos/line.png', title: 'Bronze' }
+                            { src: '#', srct: 'images/logos/data_break.png', title: 'Bronze' },
+                            { src: '#', srct: 'images/logos/line.png', title: 'Bronze' },
+                            { src: '#', srct: 'images/logos/jetbrain.png', title: 'Bronze' },
+
                           ]
                       });
                   });

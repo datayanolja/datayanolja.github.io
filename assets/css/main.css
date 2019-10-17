@@ -10,7 +10,7 @@
 
 /* Custom Style: Datayanolja*/
 #banner {
-	padding-top: calc(30% + 6em) !important;
+	padding-top: calc(40% + 6em) !important;
 }
 
 #banner ul {
@@ -153,6 +153,7 @@
 @media only screen and (max-width: 600px) {
 	#banner {
 		background-image: url(images/intro_dnol.jpg) !important;
+		padding-top: calc(30% + 6em) !important;
 	}
 
 	#first-floor .floor-main {
@@ -301,14 +302,14 @@
 	text-shadow: none;
 	color: #A9A9A9;
 	font-family: 'DM Serif Text', serif;
-	font-size: calc(2em - 10px);
+	font-size: calc(2.5em - 15px);
 }
 
 #nanogallery2-silverbronze .nGY2GThumbnailTitle {
 	text-shadow: none;
-	color: #E5C100;
+	color: #cd7f32;
 	font-family: 'DM Serif Text', serif;
-	font-size: calc(1.4em - 10px);
+	font-size: calc(2.2em - 15px);
 }
 
 
