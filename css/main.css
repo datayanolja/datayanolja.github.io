@@ -564,5 +564,6 @@ Primary use:
 }
 
 .contact .mail {
-	color : #846ADD;
+  text-decoration: none;
+	color : #ffffff;
 }
