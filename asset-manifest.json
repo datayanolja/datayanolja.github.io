@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/github.io/datayanolja/static/css/main.a489042f.chunk.css",
+    "main.js": "/github.io/datayanolja/static/js/main.11062abe.chunk.js",
+    "main.js.map": "/github.io/datayanolja/static/js/main.11062abe.chunk.js.map",
+    "runtime-main.js": "/github.io/datayanolja/static/js/runtime-main.e196ebf2.js",
+    "runtime-main.js.map": "/github.io/datayanolja/static/js/runtime-main.e196ebf2.js.map",
+    "static/js/2.20b72fc6.chunk.js": "/github.io/datayanolja/static/js/2.20b72fc6.chunk.js",
+    "static/js/2.20b72fc6.chunk.js.map": "/github.io/datayanolja/static/js/2.20b72fc6.chunk.js.map",
+    "index.html": "/github.io/datayanolja/index.html",
+    "precache-manifest.42d37bd89b10ce1abedf712eb5abed15.js": "/github.io/datayanolja/precache-manifest.42d37bd89b10ce1abedf712eb5abed15.js",
+    "service-worker.js": "/github.io/datayanolja/service-worker.js",
+    "static/css/main.a489042f.chunk.css.map": "/github.io/datayanolja/static/css/main.a489042f.chunk.css.map",
+    "static/js/2.20b72fc6.chunk.js.LICENSE.txt": "/github.io/datayanolja/static/js/2.20b72fc6.chunk.js.LICENSE.txt",
+    "static/media/Archieve_img.png": "/github.io/datayanolja/static/media/Archieve_img.b12bb6be.png",
+    "static/media/Coc_img.png": "/github.io/datayanolja/static/media/Coc_img.b5a6b70f.png",
+    "static/media/Concept.png": "/github.io/datayanolja/static/media/Concept.2d94377f.png",
+    "static/media/font.css": "/github.io/datayanolja/static/media/NotoSansKR-Thin.3c91862c.otf",
+    "static/media/back_04.png": "/github.io/datayanolja/static/media/back_04.3aede05c.png",
+    "static/media/date.png": "/github.io/datayanolja/static/media/date.8f0dc047.png",
+    "static/media/guide_02.png": "/github.io/datayanolja/static/media/guide_02.bcdb01c2.png",
+    "static/media/guide_03.png": "/github.io/datayanolja/static/media/guide_03.7f912275.png",
+    "static/media/guide_04.png": "/github.io/datayanolja/static/media/guide_04.19834ed8.png",
+    "static/media/Main.css": "/github.io/datayanolja/static/media/instagram.752d4df0.png",
+    "static/media/sponsor.png": "/github.io/datayanolja/static/media/sponsor.064f23a0.png",
+    "static/media/time_table.png": "/github.io/datayanolja/static/media/time_table.2f9d65ac.png",
+    "static/media/title_04.png": "/github.io/datayanolja/static/media/title_04.39843a13.png",
+    "static/media/이일섭.png": "/github.io/datayanolja/static/media/이일섭.4d36d226.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e196ebf2.js",
+    "static/js/2.20b72fc6.chunk.js",
+    "static/css/main.a489042f.chunk.css",
+    "static/js/main.11062abe.chunk.js"
+  ]
+}
