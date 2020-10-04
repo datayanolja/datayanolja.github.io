@@ -1,0 +1,39 @@
+.mem-body {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    margin-top: 2%;
+}
+.mem-left {
+    width: 20%;
+    float: left;
+    /* border: 1px solid red; */
+}
+.mem-right {
+    float: left;
+    text-align: center;
+    display: inline-table;
+    width: 79%;
+}
+
+
+.mem-right .profile-content{
+    width: 27%;
+    height: auto;
+    display:inline-table;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+.profile-image{
+    display: inline-table;
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+.profile-name{
+    text-align: center;
+    padding-top: 10px;
+    color: #ffffff;
+    font-size: 20px;
+}

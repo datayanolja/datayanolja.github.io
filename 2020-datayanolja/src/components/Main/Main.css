@@ -1,0 +1,102 @@
+.main-body {
+  /* border: 1px solid red; */
+  height: 300px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-left {
+  float: left;
+  width: 60%;
+}
+
+.main-right {
+  float: left;
+  width: 39%;
+}
+
+#iconField {
+  margin: 0;
+  padding-left: 0.8rem;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 0.5rem;
+  width: calc(1vw + 3.5rem);
+  height: calc(0.5vw + 1.5rem);
+}
+
+.logoImg {
+  width: 120%;
+  margin-top: -200px;
+  margin-left: -30px;
+  z-index: 0;
+}
+
+.SNS.facebook {
+  background-image: url("../../img/Main/facebook.png");
+  background-size: cover;
+  z-index: 100;
+}
+
+.SNS.instagram {
+  /* background-image: url(img/main/instagram.png); */
+  background-image: url("../../img/Main/instagram.png");
+  background-size: cover;
+  z-index: 100;
+}
+
+.title > h5 {
+  font-size: 1em;
+  color: #6390ca;
+  margin: 0;
+}
+
+.title > h5 :not(:first-child) {
+  margin-top: 3rem;
+}
+
+.title > h1 {
+  font-family: "NotoSansKR Bold", serif;
+  /* font-family: "NotoSansKR",sans-serif; */
+  font-weight: bolder;
+  font-size: 2.3em;
+  line-height: 140%;
+  color: #395d7f;
+  margin: 0;
+}
+
+.title > h1 :not(:first-child) {
+  margin-top: 1rem;
+}
+
+.dots {
+  margin-top: 1em;
+  font-size: 0.8em;
+  color: #ff9498;
+}
+
+.aboutUs > h5 {
+  /* font-family: "NotoSans Regular", serif; */
+  font-size: 1em;
+  line-height: 200%;
+  color: #6390ca;
+}
+
+.contact {
+  font-size: 1.2em;
+  color: #6390ca;
+  margin-top: 5em;
+}
+
+.link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.mainDate {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}

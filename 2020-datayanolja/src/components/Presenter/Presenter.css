@@ -1,0 +1,63 @@
+.pres-background {
+    width: 1200px;
+    /* height: 100%; */
+    margin: 0 auto;
+    /* position: fixed; */
+    /* border: 1px solid black; */
+    /* z-index: 3; */
+}
+.pres-left {
+    float:left;
+    width: 59%;
+    /* border:1px solid red; */
+}
+.pres-left p {
+    color: #FF9599;
+    font-size: 55px;
+    line-height: 55px;
+    /* margin: 0px 0 30px 0; */
+}
+.pres-left hr {
+    border: 1px dotted white;
+    width: 170px;
+    margin: 40px 0 30px 0;
+    /* float:left; */
+    /* text-align: left; */
+}
+.pres-left span {
+    color: #6286C4;
+    font-size: 18px;
+}
+.pres-left img{
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+    width: 35%;
+    margin-left: 5%;
+}
+
+.pres-right {
+    float:left;
+    width: 30%;
+    /* border:1px solid yellow; */
+    /* padding-left: 30px; */
+}
+.pres-right h1 {
+    color: white;
+    line-height: 50px;
+    margin-top: 0px;
+}
+.pres-right p {
+    color: #6286C4;
+    width: 600px;
+}
+
+.pres-background-line{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+    height: 20%;
+    z-index: -1;
+    background: #6286C4;
+}

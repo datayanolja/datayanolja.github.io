@@ -1,0 +1,64 @@
+.arc-body {
+    margin: 0 auto;
+    width: 1250px;
+}
+
+.arc-top {
+    width: 940px;
+    height: 100px;
+    margin-bottom: 3%;
+}
+.arc-top button {
+    margin-top: 25px;
+}
+.arc-top > .Word-title, button {
+    display: inline;
+}
+
+.arc-left {
+    float:left;
+    width: 25%;
+    /* border: 1px solid red; */
+}
+.arc-left img {
+    width: 150%;
+}
+
+.arc-right {
+    float:left;
+    width: 75%;
+    /* border: 1px solid yellow; */
+}
+.arc-right table {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-top: 3px solid white;
+    margin-bottom: 120px;
+    /* padding: 0 15px 0 15px; */
+}
+.arc-right table tr {
+    height: 70px;
+}
+.arc-right table tr td {
+    border-bottom: 1px solid white;
+    /* margin-right: 10px; */
+}
+.arc-right table tr td:nth-last-child(4){
+    width: 520px;
+}
+.arc-right table tr td:nth-last-child(3){
+    width: 140px;
+    font-weight: bold;
+}
+.arc-right table tr td:nth-last-child(2) {
+    width: 100px;
+    /* padding: 15px; */
+    color: #FF9599;
+}
+.arc-right table tr td:nth-last-child(1) {
+    width: 100px;
+    /* padding: 15px; */
+    color: #6AE3F8;
+}
