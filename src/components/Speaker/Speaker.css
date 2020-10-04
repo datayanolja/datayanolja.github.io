@@ -1,0 +1,119 @@
+.spe-body {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+/* 데놀 즐기기와 버튼 부분 */
+.spe-top {
+  width: 750px;
+  height: 100px;
+  margin-bottom: 5%;
+}
+
+/* 콘텐츠 전부에 적용될 css */
+.spe-contents {
+  margin-left: 120px;
+}
+.spe-contents img {
+  float: left;
+  width: 30%;
+  /* border: 1px solid red; */
+}
+.spe-contents h2 {
+  color: #ffffff;
+  font-size: 18pt;
+}
+.spe-contents p {
+  color: #6286c4;
+  margin: 2px;
+  font-size: 12pt;
+}
+
+.spe-contents #spe-text {
+  float: left;
+  /* border: 1px solid yellow; */
+}
+.spe-contents .left-content,
+.spe-contents .right-content {
+  height: 580px; /* margin 대신 간격 조절 */
+}
+
+/* 사진이 왼쪽, 글자가 오른쪽에 있는 content */
+.spe-contents .left-content #spe-text {
+  margin-left: 7%;
+  width: 62%;
+}
+
+/* 사진이 오른쪽, 글자가 왼쪽에 있는 content */
+.spe-contents .right-content #spe-text {
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.right-content #spe-text {
+  margin-left: 20%;
+}
+
+@media (max-width: 575px) {
+  .spe-body {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .spe-top {
+    width: 100%;
+    height: auto;
+    margin-bottom: 31px;
+    margin-left: 8%;
+  }
+  .spe-top .Word-title p  {
+    font-size: 28px;
+    line-height: 20px;
+  }
+
+  .spe-contents {
+    margin-top: 31px;
+    margin-left: 8%;
+  }
+
+  .left-content,
+  .right-content {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .spe-contents .left-content #spe-text {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .left-content img {
+    display: none;
+  }
+
+  .right-content img {
+    display: none;
+  }
+
+  .spe-contents .right-content #spe-text {
+    margin-top: 5%;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .spe-contents h2 {
+    font-size: 17pt;
+    margin-top: 31px;
+  }
+
+  .spe-contents p {
+    margin: 2px;
+    font-size: 10pt;
+  }
+
+  .spe-contents .left-content,
+  .spe-contents .right-content {
+    height: auto; /* margin 대신 간격 조절 */
+  }
+}

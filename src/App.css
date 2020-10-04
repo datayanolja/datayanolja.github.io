@@ -1,0 +1,63 @@
+header {
+  margin: 0 auto;
+  width: 1400px;
+  margin-top: 35px;
+  margin-bottom: 100px;
+}
+
+.Word-title {
+  color: #ff9599;
+  float: left;
+}
+.Word-title p {
+  font-size: 40px;
+  line-height: 45px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "NotoSansKR", sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+button {
+  float: right;
+  font-family: "NotoSansKR Black";
+  margin-right: 20px;
+  width: 130px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #395d7f;
+  color: #092239;
+  border-radius: 30px;
+  border: 0px;
+  font-weight: bold;
+}
+#selected {
+  background-color: #ffffff;
+  color: #ff959a;
+}
+
+@media (max-width: 575px) {
+  header {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 40px;
+  }
+  .Word-title p {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}

@@ -1,0 +1,162 @@
+.coc-body {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+.Word-title {
+  font-family: "NotoSansKR Medium", serif;
+}
+.Word-title .coc-lower {
+  margin-top: 10px;
+  font-size: 24px;
+  line-height: 32px;
+  color: black;
+}
+
+.logo {
+  position: absolute;
+  top: 55%;
+  left: 12%;
+  /* padding-left: -100px; */
+  /* margin-right: 50px; */
+}
+.logo img {
+  width: 75%;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.section.A {
+  font-family: "NotoSansKR Black";
+}
+
+.section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5em;
+}
+
+.section.A .dot,
+.section.B .dot,
+.section.C .dot,
+.section.D .dot,
+.section.E .dot {
+  position: relative;
+  flex: 1;
+  align-self: start;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+}
+
+.dot > #circle {
+  font-family: "NotoSansKR Medium", serif;
+  height: 150px;
+  width: 150px;
+  background-color: #fdd2db;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 20px;
+  color: #082138;
+}
+#circle p {
+  padding-top: 32%;
+}
+
+.cocSection {
+  display: flex;
+  flex-flow: row wrap;
+}
+.coc {
+  color: #395d7f;
+}
+.bold {
+  font-family: "NotoSansKR Bold";
+}
+
+.section.B .dot > #circle {
+  background-color: #ff9599;
+}
+
+.section.C .dot > #circle {
+  background-color: #6beeff;
+}
+
+.section.D .dot > #circle {
+  background-color: #6286c4;
+}
+
+.section.E .dot > #circle {
+  background-color: #ff9599;
+}
+
+#mobile_p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.section.B #mobile_p {
+  color: #ff9599;
+}
+
+.section.C #mobile_p {
+  color: #6beeff;
+}
+
+.section.D #mobile_p {
+  color: #6286c4;
+}
+
+.section.E #mobile_p {
+  color: #ff9599;
+}
+
+@media (min-width: 576px) {
+  .container {
+    top: 25%;
+    left: 45%;
+  }
+  .coc {
+    margin-left: 2em;
+  }
+  #mobile_p {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .coc-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .coc-header {
+    order: 0;
+    width: 100%;
+    margin-left: 8%;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .container {
+    width: 80%;
+    display: block;
+    order: 1;
+    margin-top: 250px;
+    margin-left: 8%;
+  }
+
+  .dot {
+    display: none;
+  }
+}

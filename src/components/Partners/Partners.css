@@ -1,0 +1,49 @@
+.par-body {
+  width: 1000px;
+  margin: 0 auto;
+}
+.par-left {
+  float: left;
+  color: #ff9499;
+  width: 25%;
+  margin-left: -10%;
+}
+
+.sponsor {
+  float: left;
+  margin: 0;
+  width: 74%;
+  margin: 3% 0 5% 0;
+}
+
+@media (min-width: 576px) {
+  .sponsor #mobile {
+    display: none;
+  }
+  .sponsor #web {
+    width: 100%;
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 575px) {
+  .par-body {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .par-left {
+    width: 100%;
+    margin-left: 8%;
+  }
+
+  .sponsor #web {
+    display: none;
+  }
+
+  .sponsor #mobile {
+    display: block;
+    width: 130%;
+    margin-top: 8%;
+  }
+}

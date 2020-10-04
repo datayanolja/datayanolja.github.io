@@ -1,0 +1,31 @@
+.par-body {
+  margin: 0;
+}
+
+.par-left {
+  float: left;
+  color: #ff9499;
+  width: 25%;
+}
+
+.timeTable {
+  margin-top: 5%;
+  margin-left: -10%;
+  width: 130%;
+}
+
+.timeTablem {
+  display: none;
+}
+
+@media (max-width: 575px) {
+  .timeTable {
+    display: none;
+  }
+
+  .timeTablem {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

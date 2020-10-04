@@ -1,0 +1,17 @@
+.Title img {
+  width: 350px;
+  left: 8%;
+}
+
+.Title {
+  margin-left: 100px;
+  width: 300px;
+}
+
+@media (max-width: 575px) {
+  .Title {
+    margin-left: 8%;
+    margin-top: 4%;
+    width: 60%;
+  }
+}

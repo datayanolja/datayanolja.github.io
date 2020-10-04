@@ -1,0 +1,110 @@
+.con-body {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.con-left {
+  float: left;
+  width: 45%;
+  /* border: 1px solid red; */
+}
+
+.con-left img {
+  width: 95%;
+  padding: 30px 30px 30px 0;
+}
+
+.con-right {
+  float: left;
+  margin-left: 6%;
+  width: 49%;
+  /* border: 1px solid yellow; */
+}
+.con-right h2 {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.con-right > .title > h2 > span {
+  color: white;
+  font-size: 26px;
+  line-height: 42px;
+}
+.con-right span {
+  font-size: 16px;
+  line-height: 32px;
+}
+/* .con-right h5 {
+  margin-left: 30px;
+} */
+.con-right > .contents1,
+.con-right > .contents2 {
+  color: #6286c4;
+}
+.con-right > .contents1,
+.con-right > .contents2 {
+  color: #6286c4;
+}
+
+.con-mobile img {
+  display: none;
+}
+
+/*
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+##Device = 저해상도 태블릿, 모바일(가로)
+##Screen = 481px에서 767px 사이
+*/
+
+@media (max-width: 575px) {
+  /* .con-body {
+    width: 575px;
+    margin: 0 auto;
+  } */
+
+  .con-body {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .con-left,
+  .con-right {
+    margin-left: 8%;
+    width: 100%;
+  }
+
+  .con-left {
+    float: left;
+  }
+  .con-right h2 {
+    margin-top: 31px;
+    margin-bottom: 0px;
+  }
+
+  .con-right > .title > h2 > span {
+    color: white;
+    font-size: 20px;
+    line-height: 42px;
+  }
+  .con-right span {
+    font-size: 1.6px;
+    line-height: 3.2px;
+  }
+
+  .con-right > .contents1,
+  .con-right > .contents2 {
+    color: #6286c4;
+    margin-right: 24px;
+  }
+
+  .con-left img {
+    display: none;
+  }
+
+  .con-mobile img {
+    display: block;
+    position: inherit;
+    bottom: 0px;
+    width: 100%;
+  }
+}
