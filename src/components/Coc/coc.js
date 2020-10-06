@@ -369,9 +369,7 @@ class Report extends Component {
             <div className="bold">대응방식</div>
             {this.write_text(2)}
           </div>
-          <div className="coc">
-            ------------------------------------------------------------------------------------------------------------
-          </div>
+          <div className="coc">---------------------------------</div>
           <div className="coc">
             <div className="bold">
               <br />

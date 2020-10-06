@@ -79,7 +79,7 @@ class Speaker extends Component {
           <div className="left-content">
             <img src={speaker4} alt="발표자 사진" />
 
-            <div id="spe-text">
+            <div className="last" id="spe-text">
               <h2>최고의 발표는 최고의 광고!</h2>
               <p>광고는 멋진 발표 후 마지막 슬라이드 한 장이면 충분합니다.</p>
               <p>광고는 최대한 자제해주세요.</p>

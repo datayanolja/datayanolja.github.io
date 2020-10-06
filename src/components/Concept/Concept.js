@@ -55,7 +55,7 @@ class JsonConcept extends Component {
           </h2>
         </section>
         <section className="contents1">
-          <h3>
+          <h5>
             {this.subtitle1State.split("\n").map(function (item, idx) {
               return (
                 <span key={idx}>
@@ -64,7 +64,7 @@ class JsonConcept extends Component {
                 </span>
               );
             })}
-          </h3>
+          </h5>
           <h5>
             {this.msg1State.split("\n").map(function (item, idx) {
               return (

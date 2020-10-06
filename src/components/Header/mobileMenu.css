@@ -1,0 +1,81 @@
+/* *{margin:0;padding:0;}
+body, html{width:100%;height: 100%;overflow: hidden;} */
+.menu-header {
+    width: 100%;
+    height: 50px;
+    background: #6286c4;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.menu_btn {
+    text-align: right;
+    padding: 10px;
+}
+
+.menu_bg {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* bottom: 0; */
+    display: none;
+}
+
+.sidebar_menu {
+    width: 50%;
+    height: 100%;
+    background: #082138;
+    position: absolute;
+    top: 0;
+    right: -50%;
+
+}
+
+.close_btn {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+
+.close_btn>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.menu_wrap {
+    list-style: none;
+    padding: 20px 20px;
+}
+
+.menu_wrap li a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.menu_wrap>li {
+    margin-bottom: 20px;
+}
+
+.mobile-menu-info-clicked>ul,
+.mobile-menu-2020-clicked>ul,
+.mobile-menu-news-clicked>ul {
+    margin-top: 5px;
+    padding-left: 20px;
+    /* color: white; */
+}
+
+.mobile-menu-info-clicked>ul a,
+.mobile-menu-2020-clicked>ul a,
+.mobile-menu-news-clicked>ul a {
+    color: #6286c4;
+}
+
+/* .mobile-menu-info-clicked > ul > li, .mobile-menu-2020-clicked > ul> li, .mobile-menu-news-clicked>ul> li {
+    color: white;
+} */

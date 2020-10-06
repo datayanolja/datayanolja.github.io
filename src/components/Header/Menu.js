@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import $ from "jquery";
 import "../Header/Menu.css";
+import "../Header/mediaMenu.css";
 
 class Menu extends Component {
   componentDidMount() {

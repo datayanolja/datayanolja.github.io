@@ -11,13 +11,16 @@
   float: left;
   width: 60%;
 }
+
 .mainLogo {
   width: 50%;
   order: 0;
 }
+
 .mainDate {
-  margin-top: -3%;
-  order: 1;
+  width: 50%;
+  margin-top: 8px;
+  margin-bottom: 10px;
 }
 
 .logoImg {
@@ -56,17 +59,17 @@
   z-index: 100;
 } */
 
-.title > h5 {
+.title>h5 {
   font-size: 1em;
   color: #6390ca;
   margin: 0;
 }
 
-.title > h5 :not(:first-child) {
+.title>h5 :not(:first-child) {
   margin-top: 3rem;
 }
 
-.title > h1 {
+.title>h1 {
   font-family: "NotoSansKR Bold", serif;
   font-weight: bolder;
   font-size: 2.3em;
@@ -75,7 +78,7 @@
   margin: 0;
 }
 
-.title > h1 :not(:first-child) {
+.title>h1 :not(:first-child) {
   margin-top: 1rem;
 }
 
@@ -85,7 +88,7 @@
   color: #ff9498;
 }
 
-.aboutUs > h5 {
+.aboutUs>h5 {
   /* font-family: "NotoSans Regular", serif; */
   font-size: 1em;
   line-height: 200%;
@@ -104,14 +107,12 @@
   height: 100%;
 }
 
-.mainDate {
-  width: 50%;
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-
 @media (min-width: 576px) {
   .mainDate_m {
+    display: none;
+  }
+
+  .logoImg_m {
     display: none;
   }
 }
@@ -123,32 +124,51 @@
     width: 100%;
     margin: auto;
   }
+
   .main-left {
     order: 0;
     margin-left: 8%;
     width: 70%;
   }
+
   .main-right {
+    margin-left: 8px;
+    width: 85%;
     order: 1;
   }
-  .mainDate {
+
+  .mainDate,
+  .logoImg {
     display: none;
   }
+
   .mainLogo,
   .mainDate_m {
     width: 80%;
     display: block;
   }
+
   .mainDate_m {
     order: 1;
   }
-  .logoImg {
+
+  .logoImg_m {
+    order: 2;
+    display: block;
     width: 170%;
     margin-top: -30%;
     margin-left: -50px;
   }
-  .main-right {
-    margin-left: 8%;
-    width: 100%;
+
+  .title>h1 {
+    font-size: 1.8em;
+  }
+
+  .aboutUs>h5 {
+    font-size: 0.9em;
+  }
+
+  .contact {
+    font-size: 1em;
   }
 }

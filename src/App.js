@@ -9,6 +9,7 @@ import Archieve from "./components/Archieve/Archieve";
 import Concept from "./components/Concept/Concept";
 import Partners from "./components/Partners/Partners";
 import Members from "./components/Members/Members";
+import MobileMenu from "./components/Header/mobileMenu";
 import "./App.css";
 import "./font/font.css";
 
@@ -62,6 +63,15 @@ class App extends Component {
             }.bind(this)}
             clicked={this.state.clicked}
           ></Menu>
+
+          <MobileMenu
+            onChangeMode={function (_mode) {
+              this.setState({
+                mode: _mode,
+              });
+            }.bind(this)}
+            clicked={this.state.clicked}
+          ></MobileMenu>
         </header>
 
         {_article}

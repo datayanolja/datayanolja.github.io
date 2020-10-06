@@ -4,6 +4,7 @@ import mainLogo from "../../img/Main/title_04.png";
 import mainDate from "../../img/Main/date.png";
 import mainDate_m from "../../img/Main/mainDate_m.png";
 import logoImg from "../../img/Main/back_04.png";
+import logoImg_m from "../../img/Main/back_m.png";
 import states from "./aboutus.json";
 
 class Mainlogo extends Component {
@@ -18,7 +19,8 @@ class Mainlogo extends Component {
           alt="모바일2020년 10월 17일"
         />
         <br />
-        <img className="logoImg" src={logoImg} alt="회전목마" />
+        <img className="logoImg" src={logoImg} alt="웹" />
+        <img className="logoImg_m" src={logoImg_m} alt="모바일" />
       </div>
     );
   }
