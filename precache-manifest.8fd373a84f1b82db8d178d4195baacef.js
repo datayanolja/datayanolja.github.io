@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4b00398284112c68786450606a0f1686",
+    "revision": "3653a4da2790738e9762dfa8ff6ba230",
     "url": "/index.html"
   },
   {
-    "revision": "4e569bc32acd987e844f",
-    "url": "/static/css/main.5247b691.chunk.css"
+    "revision": "04af1c74bd1229974f67",
+    "url": "/static/css/main.e58ad53b.chunk.css"
   },
   {
-    "revision": "1a6bd84c67c67eb4d4ca",
-    "url": "/static/js/2.36a2c10e.chunk.js"
+    "revision": "c486635b039517e8e64a",
+    "url": "/static/js/2.de54dcd1.chunk.js"
   },
   {
     "revision": "f4aac9c965aa45c554c7c1d1e3f69ce3",
-    "url": "/static/js/2.36a2c10e.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.de54dcd1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4e569bc32acd987e844f",
-    "url": "/static/js/main.759da233.chunk.js"
+    "revision": "04af1c74bd1229974f67",
+    "url": "/static/js/main.65b8ea5e.chunk.js"
   },
   {
     "revision": "3451df5c43a428148a74",
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/back_04.3aede05c.png"
   },
   {
+    "revision": "704226907908c18fcbb86cadfc152e6c",
+    "url": "/static/media/back_m.70422690.png"
+  },
+  {
     "revision": "8f0dc04748e223e121345716628d936c",
     "url": "/static/media/date.8f0dc047.png"
   },
@@ -112,7 +116,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/title_04.754be026.png"
   },
   {
+    "revision": "d0971842466e0c13ce214df47542684a",
+    "url": "/static/media/닫기.d0971842.svg"
+  },
+  {
     "revision": "4d36d226745cdee4717913055384f0e3",
     "url": "/static/media/이일섭.4d36d226.png"
+  },
+  {
+    "revision": "00b27c6bbcdc5e3c924b155ef99e5b23",
+    "url": "/static/media/햄버거.00b27c6b.svg"
   }
 ]);
