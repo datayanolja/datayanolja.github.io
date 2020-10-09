@@ -18,24 +18,21 @@
   float: left;
   margin-left: 6%;
   width: 49%;
-  /* border: 1px solid yellow; */
 }
+
 .con-right h2 {
   margin-top: 0px;
   margin-bottom: 30px;
 }
+
 .con-right > .title > h2 > span {
   color: white;
-  font-size: 26px;
-  line-height: 42px;
 }
+
 .con-right span {
-  font-size: 16px;
-  line-height: 32px;
+  font-size: 1.2em;
+  line-height: 200%;
 }
-/* .con-right h5 {
-  margin-left: 30px;
-} */
 
 .con-right > .contents1,
 .con-right > .contents2 {
@@ -53,6 +50,11 @@
 ##Screen = 481px에서 767px 사이
 */
 
+@media (min-width: 576px) {
+  #mobileStates {
+    display: none;
+  }
+}
 @media (max-width: 575px) {
   /* .con-body {
     width: 575px;
@@ -70,7 +72,7 @@
   }
 
   .con-right {
-    width: 90%;
+    width: 82%;
   }
 
   .con-left {
@@ -89,12 +91,12 @@
   .con-right > .contents1,
   .con-right > .contents2 {
     color: #6286c4;
-    margin-right: 24px;
     font-size: 1.2em;
     line-height: 1.8em;
   }
 
-  .con-left img {
+  .con-left img,
+  #webStates {
     display: none;
   }
 

@@ -59,17 +59,17 @@
   z-index: 100;
 } */
 
-.title>h5 {
+.title > h5 {
   font-size: 1em;
   color: #6390ca;
   margin: 0;
 }
 
-.title>h5 :not(:first-child) {
+.title > h5 :not(:first-child) {
   margin-top: 3rem;
 }
 
-.title>h1 {
+.title > h1 {
   font-family: "NotoSansKR Bold", serif;
   font-weight: bolder;
   font-size: 2.3em;
@@ -78,7 +78,7 @@
   margin: 0;
 }
 
-.title>h1 :not(:first-child) {
+.title > h1 :not(:first-child) {
   margin-top: 1rem;
 }
 
@@ -88,7 +88,7 @@
   color: #ff9498;
 }
 
-.aboutUs>h5 {
+.aboutUs > h5 {
   /* font-family: "NotoSans Regular", serif; */
   font-size: 1em;
   line-height: 200%;
@@ -108,11 +108,9 @@
 }
 
 @media (min-width: 576px) {
-  .mainDate_m {
-    display: none;
-  }
-
-  .logoImg_m {
+  .mainDate_m,
+  .logoImg_m,
+  #mobileStates {
     display: none;
   }
 }
@@ -132,13 +130,14 @@
   }
 
   .main-right {
-    margin-left: 8px;
-    width: 85%;
+    margin-left: 8%;
+    width: 82%;
     order: 1;
   }
 
   .mainDate,
-  .logoImg {
+  .logoImg,
+  #webStates {
     display: none;
   }
 
@@ -155,20 +154,17 @@
   .logoImg_m {
     order: 2;
     display: block;
-    width: 170%;
+    width: 160%;
     margin-top: -30%;
     margin-left: -50px;
   }
 
-  .title>h1 {
+  .title > h1 {
     font-size: 1.8em;
   }
 
-  .aboutUs>h5 {
-    font-size: 0.9em;
-  }
-
+  .aboutUs > h5,
   .contact {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 }

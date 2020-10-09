@@ -26,7 +26,6 @@ class Speaker extends Component {
         <div className="spe-contents">
           <div className="left-content">
             <img src={speaker2} alt="발표자 사진" />
-
             <div id="spe-text">
               <h2>
                 데이터야놀자에서
@@ -41,8 +40,7 @@ class Speaker extends Component {
               <p>
                 새로운 가치 창출의 경험 등 당신만의 소중한 경험을 공유해주세요
               </p>
-              <br />
-              <br />
+
               <h2>
                 데이터에 관심 있는 <br />
                 다양한 직군의 사람들이 모이는
@@ -58,6 +56,7 @@ class Speaker extends Component {
           </div>
 
           <div className="right-content">
+            <img id="mobileImg" src={speaker3} alt="발표자 사진" />
             <div id="spe-text">
               <h2>특정 기술에 대한 이야기도 환영</h2>
               <p>
@@ -65,28 +64,24 @@ class Speaker extends Component {
               </p>
               <p>단, 발표 전 이러한 점을 청중에게 미리 알려주시면,</p>
               <p>미리 마음의 준비를 할 수 있어요!</p>
-              <br />
-              <br />
+
               <h2>Put your hands up!</h2>
               <p>저희는 데이터로 재밌게 놀기 위해 모였습니다.</p>
               <p>엄숙하거나 프로패셔널한 모습도 좋지만,</p>
               <p>편한 마음으로 재밌는 이야기를 마음껏 즐겨주세요.</p>
             </div>
-
-            <img src={speaker3} alt="발표자 사진" />
+            <img id="webImg" src={speaker3} alt="발표자 사진" />
           </div>
 
           <div className="left-content">
             <img src={speaker4} alt="발표자 사진" />
-
             <div className="last" id="spe-text">
               <h2>최고의 발표는 최고의 광고!</h2>
               <p>광고는 멋진 발표 후 마지막 슬라이드 한 장이면 충분합니다.</p>
               <p>광고는 최대한 자제해주세요.</p>
               <p>광고는 제품이 아닌</p>
               <p>사람에게 반할 때 효과가 가장 큽니다.</p>
-              <br />
-              <br />
+
               <h2>피드백 무한 환영</h2>
               <p>발표에 대해 궁금한 점이나 행사에 대한 피드백은</p>
               <p>365일 연중무휴!</p>

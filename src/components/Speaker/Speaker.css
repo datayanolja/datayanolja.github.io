@@ -54,6 +54,12 @@
   margin-left: 20%;
 }
 
+@media (min-width: 576px) {
+  #mobileImg {
+    display: none;
+  }
+}
+
 @media (max-width: 575px) {
   .spe-body {
     width: 100%;
@@ -63,16 +69,20 @@
   .spe-top {
     width: 100%;
     height: auto;
-    margin-bottom: 31px;
     margin-left: 8%;
   }
+
+  .Word-title {
+    margin-bottom: 5%;
+  }
+
   .spe-top .Word-title p  {
     font-size: 28px;
     line-height: 20px;
   }
 
   .spe-contents {
-    margin-top: 31px;
+    width: 82%;
     margin-left: 8%;
   }
 
@@ -88,32 +98,39 @@
     width: 100%;
   }
 
-  .left-content img {
+  #mobileImg {
+    display: block;
+  }
+
+  #webImg {
     display: none;
   }
 
+  .left-content img,
   .right-content img {
-    display: none;
+    display: block;
+    width: 100%;
+    margin-top: 5%;
   }
 
   .spe-contents .right-content #spe-text {
-    margin-top: 5%;
-    margin-left: 0;
-    margin-bottom: 0;
+    margin: 0;
   }
 
   .spe-contents h2 {
-    font-size: 17pt;
-    margin-top: 31px;
+    font-size: 1.5em;
   }
 
   .spe-contents p {
-    margin: 2px;
-    font-size: 10pt;
+    font-size: 1em;
   }
 
   .spe-contents .left-content,
   .spe-contents .right-content {
     height: auto; /* margin 대신 간격 조절 */
+  }
+
+  .last {
+    margin-bottom: 8%;
   }
 }
